@@ -1,0 +1,14 @@
+
+Scenario: select hilton hotel                               [90m# src/test/java/features/Location.feature:7[0m
+  [32mGiven [0m[32muser in hotel HomePage[0m                              [90m# stepDefinitions.LocationStepDefinition.user_in_hotel_home_page()[0m
+  [32mThen [0m[32muser can click Location button[0m                       [90m# stepDefinitions.LocationStepDefinition.user_can_click_location_button()[0m
+  [32mThen [0m[32muser can select Asia zone[0m                            [90m# stepDefinitions.LocationStepDefinition.user_can_select_asia_zone()[0m
+  [32mThen [0m[32muser can select Indian Hotel[0m                         [90m# stepDefinitions.LocationStepDefinition.user_can_select_indian_Hotel()[0m
+  [32mThen [0m[32muser can select first one from the Indian Hotel list[0m [90m# stepDefinitions.LocationStepDefinition.user_can_select_first_one_from_the_Indian_Hotel_list()[0m
+
+Scenario: select hilton hotel                               [90m# src/test/java/features/Location.feature:12[0m
+  [32mGiven [0m[32muser in hotel HomePage[0m                              [90m# stepDefinitions.LocationStepDefinition.user_in_hotel_home_page()[0m
+  [32mThen [0m[32muser can click Location button[0m                       [90m# stepDefinitions.LocationStepDefinition.user_can_click_location_button()[0m
+  [32mThen [0m[32muser can select North America zone[0m                   [90m# stepDefinitions.LocationStepDefinition.user_can_select_north_america_zone()[0m
+  [32mThen [0m[32muser can select Alaska Hotel[0m                         [90m# stepDefinitions.LocationStepDefinition.user_can_select_alaska_Hotel()[0m
+  [32mThen [0m[32muser can select first one from the Alaska Hotel list[0m [90m# stepDefinitions.LocationStepDefinition.user_can_select_first_one_from_the_Alaska_Hotel_list()[0m

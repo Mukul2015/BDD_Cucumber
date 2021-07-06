@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="87.636">
+<testcase classname="User can select location" name="select hilton hotel" time="47.549">
+<system-out><![CDATA[Given user in hotel HomePage................................................passed
+Then user can click Location button.........................................passed
+Then user can select Asia zone..............................................passed
+Then user can select Indian Hotel...........................................passed
+Then user can select first one from the Indian Hotel list...................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can select location" name="select hilton hotel 2" time="39.402">
+<system-out><![CDATA[Given user in hotel HomePage................................................passed
+Then user can click Location button.........................................passed
+Then user can select North America zone.....................................passed
+Then user can select Alaska Hotel...........................................passed
+Then user can select first one from the Alaska Hotel list...................passed
+]]></system-out>
+</testcase>
+</testsuite>

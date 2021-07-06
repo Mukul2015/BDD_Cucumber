@@ -1,0 +1,14 @@
+
+Scenario Outline: find a pharmacy                                 [90m# src/test/java/features/FindPharmacy.feature:12[0m
+  [32mGiven [0m[32m:User in United Health Care HomePage[0m                      [90m# stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()[0m
+  [32mThen [0m[32m:User can click find doctor Button[0m                         [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_find_doctor_button()[0m
+  [32mThen [0m[32m:User can click pharmacy Button[0m                            [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_pharmacy_button()[0m
+  [32mAnd [0m[32m:User can enter pharmacy Name [0m[32m[1m"Queens drug"[0m[32m and zip [0m[32m[1m"11373"[0m [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_enter_pharmacy_name_and_zip(java.lang.String,java.lang.String)[0m
+  [32mThen [0m[32m:User can click search Button[0m                              [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_search_button()[0m
+
+Scenario Outline: find a pharmacy                         [90m# src/test/java/features/FindPharmacy.feature:13[0m
+  [32mGiven [0m[32m:User in United Health Care HomePage[0m              [90m# stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()[0m
+  [32mThen [0m[32m:User can click find doctor Button[0m                 [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_find_doctor_button()[0m
+  [32mThen [0m[32m:User can click pharmacy Button[0m                    [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_pharmacy_button()[0m
+  [32mAnd [0m[32m:User can enter pharmacy Name [0m[32m[1m"cvs"[0m[32m and zip [0m[32m[1m"11373"[0m [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_enter_pharmacy_name_and_zip(java.lang.String,java.lang.String)[0m
+  [32mThen [0m[32m:User can click search Button[0m                      [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_search_button()[0m

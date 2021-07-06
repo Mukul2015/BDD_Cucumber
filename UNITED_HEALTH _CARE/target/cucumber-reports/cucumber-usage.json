@@ -1,0 +1,121 @@
+[
+  {
+    "source": ":User in United Health Care HomePage",
+    "steps": [
+      {
+        "name": ":User in United Health Care HomePage",
+        "aggregatedDurations": {
+          "median": 10.12601745,
+          "average": 10.12601745
+        },
+        "durations": [
+          {
+            "duration": 11.2980821,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:4"
+          },
+          {
+            "duration": 8.9539528,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can click find doctor Button",
+    "steps": [
+      {
+        "name": ":User can click find doctor Button",
+        "aggregatedDurations": {
+          "median": 2.09683425,
+          "average": 2.09683425
+        },
+        "durations": [
+          {
+            "duration": 2.4565919,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:5"
+          },
+          {
+            "duration": 1.7370766,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can click pharmacy Button",
+    "steps": [
+      {
+        "name": ":User can click pharmacy Button",
+        "aggregatedDurations": {
+          "median": 0.40376815,
+          "average": 0.40376815
+        },
+        "durations": [
+          {
+            "duration": 0.4907181,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:6"
+          },
+          {
+            "duration": 0.3168182,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can enter pharmacy Name {string} and zip {string}",
+    "steps": [
+      {
+        "name": ":User can enter pharmacy Name \"Queens drug\" and zip \"11373\"",
+        "aggregatedDurations": {
+          "median": 7.823831,
+          "average": 7.823831
+        },
+        "durations": [
+          {
+            "duration": 7.823831,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:7"
+          }
+        ]
+      },
+      {
+        "name": ":User can enter pharmacy Name \"cvs\" and zip \"11373\"",
+        "aggregatedDurations": {
+          "median": 4.2005922,
+          "average": 4.2005922
+        },
+        "durations": [
+          {
+            "duration": 4.2005922,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can click search Button",
+    "steps": [
+      {
+        "name": ":User can click search Button",
+        "aggregatedDurations": {
+          "median": 0.2553904,
+          "average": 0.2553904
+        },
+        "durations": [
+          {
+            "duration": 0.236938,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:8"
+          },
+          {
+            "duration": 0.2738428,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:8"
+          }
+        ]
+      }
+    ]
+  }
+]

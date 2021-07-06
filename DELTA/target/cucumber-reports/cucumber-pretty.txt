@@ -1,0 +1,12 @@
+
+Scenario: User can SignUp                                                 [90m# src/test/java/features/SignUp.feature:3[0m
+  [32mGiven [0m[32mUser on Delta Airlines HomePage[0m                                   [90m# stepDefinitions.SignUpStepDefinition.user_on_delta_airlines_home_page()[0m
+  [32mThen [0m[32mUser can click SIGN UP Button[0m                                      [90m# stepDefinitions.SignUpStepDefinition.user_can_click_sign_up_button()[0m
+  [32mThen [0m[32mUser can select their Prefix[0m                                       [90m# stepDefinitions.SignUpStepDefinition.user_can_select_their_prefix()[0m
+  [32mThen [0m[32mUser can fillUp firstName and lastName[0m                             [90m# stepDefinitions.SignUpStepDefinition.user_can_fill_up_first_name_and_last_name(io.cucumber.datatable.DataTable)[0m
+  [32mThen [0m[32mUser can select their Gender[0m                                       [90m# stepDefinitions.SignUpStepDefinition.user_can_select_their_gender()[0m
+  [32mAnd [0m[32mUser can select their Country[0m                                       [90m# stepDefinitions.SignUpStepDefinition.user_can_select_their_country()[0m
+  [32mAnd [0m[32mUser can fillUp address and city and zipCode[0m                        [90m# stepDefinitions.SignUpStepDefinition.user_can_fill_up_address_and_city_and_zip_code(io.cucumber.datatable.DataTable)[0m
+  [32mAnd [0m[32mUser can select their CountryCode[0m                                   [90m# stepDefinitions.SignUpStepDefinition.user_can_select_their_country_code()[0m
+  [32mAnd [0m[32mUser can fillUp AreaCode and PhoneNumber and Email and ConfirmEmail[0m [90m# stepDefinitions.SignUpStepDefinition.user_can_fill_up_area_code_and_phone_number_and_email_and_confirm_email(io.cucumber.datatable.DataTable)[0m
+  [32mAnd [0m[32mUser can fillUp UserName and Password and ConfirmPassword[0m           [90m# stepDefinitions.SignUpStepDefinition.user_can_fill_up_user_name_and_password_and_confirm_password(io.cucumber.datatable.DataTable)[0m

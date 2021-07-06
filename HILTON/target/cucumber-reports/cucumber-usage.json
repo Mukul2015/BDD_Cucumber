@@ -1,0 +1,154 @@
+[
+  {
+    "source": "user in hotel HomePage",
+    "steps": [
+      {
+        "name": "user in hotel HomePage",
+        "aggregatedDurations": {
+          "median": 27.77025415,
+          "average": 27.77025415
+        },
+        "durations": [
+          {
+            "duration": 31.6905946,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:4"
+          },
+          {
+            "duration": 23.8499137,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user can click Location button",
+    "steps": [
+      {
+        "name": "user can click Location button",
+        "aggregatedDurations": {
+          "median": 3.659075,
+          "average": 3.659075
+        },
+        "durations": [
+          {
+            "duration": 3.6560573,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:5"
+          },
+          {
+            "duration": 3.6620927,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user can select Asia zone",
+    "steps": [
+      {
+        "name": "user can select Asia zone",
+        "aggregatedDurations": {
+          "median": 0.1939047,
+          "average": 0.1939047
+        },
+        "durations": [
+          {
+            "duration": 0.1939047,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user can select Indian Hotel",
+    "steps": [
+      {
+        "name": "user can select Indian Hotel",
+        "aggregatedDurations": {
+          "median": 8.6151236,
+          "average": 8.6151236
+        },
+        "durations": [
+          {
+            "duration": 8.6151236,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user can select first one from the Indian Hotel list",
+    "steps": [
+      {
+        "name": "user can select first one from the Indian Hotel list",
+        "aggregatedDurations": {
+          "median": 0.701158,
+          "average": 0.701158
+        },
+        "durations": [
+          {
+            "duration": 0.701158,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user can select North America zone",
+    "steps": [
+      {
+        "name": "user can select North America zone",
+        "aggregatedDurations": {
+          "median": 0.1319255,
+          "average": 0.1319255
+        },
+        "durations": [
+          {
+            "duration": 0.1319255,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user can select Alaska Hotel",
+    "steps": [
+      {
+        "name": "user can select Alaska Hotel",
+        "aggregatedDurations": {
+          "median": 9.9356969,
+          "average": 9.9356969
+        },
+        "durations": [
+          {
+            "duration": 9.9356969,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "user can select first one from the Alaska Hotel list",
+    "steps": [
+      {
+        "name": "user can select first one from the Alaska Hotel list",
+        "aggregatedDurations": {
+          "median": 0.3048255,
+          "average": 0.3048255
+        },
+        "durations": [
+          {
+            "duration": 0.3048255,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:15"
+          }
+        ]
+      }
+    ]
+  }
+]

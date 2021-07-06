@@ -1,0 +1,182 @@
+[
+  {
+    "source": "User on Delta Airlines HomePage",
+    "steps": [
+      {
+        "name": "User on Delta Airlines HomePage",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can click SIGN UP Button",
+    "steps": [
+      {
+        "name": "User can click SIGN UP Button",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can select their Prefix",
+    "steps": [
+      {
+        "name": "User can select their Prefix",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User can fillUp firstName and lastName$",
+    "steps": [
+      {
+        "name": "User can fillUp firstName and lastName",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can select their Gender",
+    "steps": [
+      {
+        "name": "User can select their Gender",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can select their Country",
+    "steps": [
+      {
+        "name": "User can select their Country",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can fillUp address and city and zipCode",
+    "steps": [
+      {
+        "name": "User can fillUp address and city and zipCode",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can select their CountryCode",
+    "steps": [
+      {
+        "name": "User can select their CountryCode",
+        "aggregatedDurations": {
+          "median": 0.0156269,
+          "average": 0.0156269
+        },
+        "durations": [
+          {
+            "duration": 0.0156269,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can fillUp AreaCode and PhoneNumber and Email and ConfirmEmail",
+    "steps": [
+      {
+        "name": "User can fillUp AreaCode and PhoneNumber and Email and ConfirmEmail",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can fillUp UserName and Password and ConfirmPassword",
+    "steps": [
+      {
+        "name": "User can fillUp UserName and Password and ConfirmPassword",
+        "aggregatedDurations": {
+          "median": 0.0,
+          "average": 0.0
+        },
+        "durations": [
+          {
+            "duration": 0.0,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:21"
+          }
+        ]
+      }
+    ]
+  }
+]

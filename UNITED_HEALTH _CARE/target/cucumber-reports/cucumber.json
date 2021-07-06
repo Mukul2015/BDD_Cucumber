@@ -1,0 +1,788 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-06T21:09:18.170Z",
+        "line": 12,
+        "name": "find a pharmacy",
+        "description": "",
+        "id": "find-pharmacy-using-united-health-care-webside;find-a-pharmacy;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 947259400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchProductStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.RegistrationStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 11298082100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 67957300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1997900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": ":User in United Health Care HomePage",
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2997800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2456591900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": ":User can click find doctor Button",
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_find_doctor_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 490718100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 5996000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": ":User can click pharmacy Button",
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_pharmacy_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 7823831000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": ":User can enter pharmacy Name \"Queens drug\" and zip \"11373\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Queens drug\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"11373\"",
+                  "offset": 52
+                }
+              ],
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_enter_pharmacy_name_and_zip(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 236938000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": ":User can click search Button",
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 997400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-06T21:09:41.744Z",
+        "line": 13,
+        "name": "find a pharmacy",
+        "description": "",
+        "id": "find-pharmacy-using-united-health-care-webside;find-a-pharmacy;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 947696600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchProductStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "duration": 998400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.RegistrationStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8953952800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": ":User in United Health Care HomePage",
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1737076600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": ":User can click find doctor Button",
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_find_doctor_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 316818200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": ":User can click pharmacy Button",
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_pharmacy_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4200592200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": ":User can enter pharmacy Name \"cvs\" and zip \"11373\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"cvs\"",
+                  "offset": 30
+                },
+                {
+                  "val": "\"11373\"",
+                  "offset": 44
+                }
+              ],
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_enter_pharmacy_name_and_zip(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 273842800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": ":User can click search Button",
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "find pharmacy using United Health care webSide",
+    "description": "",
+    "id": "find-pharmacy-using-united-health-care-webside",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/FindPharmacy.feature",
+    "tags": []
+  }
+]

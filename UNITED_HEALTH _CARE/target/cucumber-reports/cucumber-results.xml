@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="40.646">
+<testcase classname="find pharmacy using United Health care webSide" name="find a pharmacy" time="23.526">
+<system-out><![CDATA[Given :User in United Health Care HomePage..................................passed
+Then :User can click find doctor Button.....................................passed
+Then :User can click pharmacy Button........................................passed
+And :User can enter pharmacy Name "Queens drug" and zip "11373".............passed
+Then :User can click search Button..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="find pharmacy using United Health care webSide" name="find a pharmacy 2" time="16.466">
+<system-out><![CDATA[Given :User in United Health Care HomePage..................................passed
+Then :User can click find doctor Button.....................................passed
+Then :User can click pharmacy Button........................................passed
+And :User can enter pharmacy Name "cvs" and zip "11373".....................passed
+Then :User can click search Button..........................................passed
+]]></system-out>
+</testcase>
+</testsuite>

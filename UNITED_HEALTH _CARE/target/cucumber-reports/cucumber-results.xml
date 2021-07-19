@@ -1,18 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="40.646">
-<testcase classname="find pharmacy using United Health care webSide" name="find a pharmacy" time="23.526">
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="45.695">
+<testcase classname="search a product in united health care" name="search a product" time="21.37">
 <system-out><![CDATA[Given :User in United Health Care HomePage..................................passed
-Then :User can click find doctor Button.....................................passed
-Then :User can click pharmacy Button........................................passed
-And :User can enter pharmacy Name "Queens drug" and zip "11373".............passed
-Then :User can click search Button..........................................passed
+Then :User can search "NYC".................................................passed
+Then :User can click products...............................................passed
+Then :User can click vision plan............................................passed
+Then :User can enter zipCode "25641"........................................passed
+Then :User can click search.................................................passed
+And :User can validate massage..............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="find pharmacy using United Health care webSide" name="find a pharmacy 2" time="16.466">
+<testcase classname="search a product in united health care" name="search a product 2" time="23.631">
 <system-out><![CDATA[Given :User in United Health Care HomePage..................................passed
-Then :User can click find doctor Button.....................................passed
-Then :User can click pharmacy Button........................................passed
-And :User can enter pharmacy Name "cvs" and zip "11373".....................passed
-Then :User can click search Button..........................................passed
+Then :User can search "TX"..................................................passed
+Then :User can click health insurance plans texas...........................passed
+Then :User can click Short term health insurance plan.......................passed
+And :User can validate massage texas........................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

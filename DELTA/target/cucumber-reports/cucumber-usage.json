@@ -1,179 +1,107 @@
 [
   {
-    "source": "User on Delta Airlines HomePage",
+    "source": ":user in Delta HomePage",
     "steps": [
       {
-        "name": "User on Delta Airlines HomePage",
+        "name": ":user in Delta HomePage",
         "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
+          "median": 16.1801062,
+          "average": 16.1801062
         },
         "durations": [
           {
-            "duration": 0.0,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:4"
+            "duration": 16.1801062,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/Search.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can click SIGN UP Button",
+    "source": ":user can click search button",
     "steps": [
       {
-        "name": "User can click SIGN UP Button",
+        "name": ":user can click search button",
         "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
+          "median": 1.4494169,
+          "average": 1.4494169
         },
         "durations": [
           {
-            "duration": 0.0,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:5"
+            "duration": 1.4494169,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/Search.feature:5"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can select their Prefix",
+    "source": ":User Can enter {string} in searchBox",
     "steps": [
       {
-        "name": "User can select their Prefix",
+        "name": ":User Can enter \"AUS\" in searchBox",
         "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
+          "median": 0.2888324,
+          "average": 0.2888324
         },
         "durations": [
           {
-            "duration": 0.0,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:6"
+            "duration": 0.2888324,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/Search.feature:20"
           }
         ]
       }
     ]
   },
   {
-    "source": "^User can fillUp firstName and lastName$",
+    "source": ":user can click searchField search button",
     "steps": [
       {
-        "name": "User can fillUp firstName and lastName",
+        "name": ":user can click searchField search button",
         "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
+          "median": 5.561551,
+          "average": 5.561551
         },
         "durations": [
           {
-            "duration": 0.0,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:7"
+            "duration": 5.561551,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/Search.feature:21"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can select their Gender",
+    "source": ":user can click Cashless airport",
     "steps": [
       {
-        "name": "User can select their Gender",
+        "name": ":user can click Cashless airport",
         "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
+          "median": 4.6111957,
+          "average": 4.6111957
         },
         "durations": [
           {
-            "duration": 0.0,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:10"
+            "duration": 4.6111957,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/Search.feature:22"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can select their Country",
+    "source": ":user can validate Cashless",
     "steps": [
       {
-        "name": "User can select their Country",
+        "name": ":user can validate Cashless",
         "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
+          "median": 0.1254559,
+          "average": 0.1254559
         },
         "durations": [
           {
-            "duration": 0.0,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:12"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "User can fillUp address and city and zipCode",
-    "steps": [
-      {
-        "name": "User can fillUp address and city and zipCode",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:14"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "User can select their CountryCode",
-    "steps": [
-      {
-        "name": "User can select their CountryCode",
-        "aggregatedDurations": {
-          "median": 0.0156269,
-          "average": 0.0156269
-        },
-        "durations": [
-          {
-            "duration": 0.0156269,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:17"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "User can fillUp AreaCode and PhoneNumber and Email and ConfirmEmail",
-    "steps": [
-      {
-        "name": "User can fillUp AreaCode and PhoneNumber and Email and ConfirmEmail",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:18"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "User can fillUp UserName and Password and ConfirmPassword",
-    "steps": [
-      {
-        "name": "User can fillUp UserName and Password and ConfirmPassword",
-        "aggregatedDurations": {
-          "median": 0.0,
-          "average": 0.0
-        },
-        "durations": [
-          {
-            "duration": 0.0,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/SignUp.feature:21"
+            "duration": 0.1254559,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/DELTA/src/test/java/features/Search.feature:23"
           }
         ]
       }

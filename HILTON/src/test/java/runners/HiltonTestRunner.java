@@ -7,9 +7,9 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
         features =
             // {"src/test/java/features/Join.feature"},
-            //{"src/test/java/features/Search.feature"},
+            {"src/test/java/features/Search.feature"},
             //{"src/test/java/features/FooterLink.feature"},
-              {"src/test/java/features/Location.feature"},
+//              {"src/test/java/features/Location.feature"},
 
         glue = {"stepDefinitions"},
         plugin = {"pretty", "json:target/cucumber-reports/cucumber.json", "html:target/cucumber-reports/index.html",

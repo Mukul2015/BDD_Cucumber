@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
+        "line": 2,
         "name": "",
         "description": "",
         "type": "background",
@@ -11,13 +11,13 @@
         "steps": [
           {
             "result": {
-              "duration": 31690594600,
+              "duration": 46320728000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 27289400,
+                  "duration": 31247300,
                   "status": "passed"
                 },
                 "match": {
@@ -26,7 +26,7 @@
               },
               {
                 "result": {
-                  "duration": 46814500,
+                  "duration": 78119100,
                   "status": "passed"
                 },
                 "match": {
@@ -35,7 +35,7 @@
               },
               {
                 "result": {
-                  "duration": 12992200,
+                  "duration": 15624300,
                   "status": "passed"
                 },
                 "match": {
@@ -44,7 +44,6 @@
               },
               {
                 "result": {
-                  "duration": 9994400,
                   "status": "passed"
                 },
                 "match": {
@@ -52,15 +51,15 @@
                 }
               }
             ],
-            "line": 4,
-            "name": "user in hotel HomePage",
+            "line": 3,
+            "name": ":User in Hilton hotel homePage",
             "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_in_hotel_home_page()"
+              "location": "stepDefinitions.JoinStepDefinition.user_in_hilton_hotel_home_page()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 2999600,
+                  "duration": 2998100,
                   "status": "passed"
                 },
                 "match": {
@@ -77,7 +76,7 @@
               },
               {
                 "result": {
-                  "duration": 1999100,
+                  "duration": 998800,
                   "status": "passed"
                 },
                 "match": {
@@ -86,6 +85,7 @@
               },
               {
                 "result": {
+                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -97,13 +97,13 @@
           },
           {
             "result": {
-              "duration": 3656057300,
+              "duration": 425756900,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 998700,
+                  "duration": 999900,
                   "status": "passed"
                 },
                 "match": {
@@ -112,7 +112,7 @@
               },
               {
                 "result": {
-                  "duration": 1999500,
+                  "duration": 998700,
                   "status": "passed"
                 },
                 "match": {
@@ -121,7 +121,7 @@
               },
               {
                 "result": {
-                  "duration": 999900,
+                  "duration": 998700,
                   "status": "passed"
                 },
                 "match": {
@@ -130,7 +130,7 @@
               },
               {
                 "result": {
-                  "duration": 1997700,
+                  "duration": 2000100,
                   "status": "passed"
                 },
                 "match": {
@@ -138,15 +138,15 @@
                 }
               }
             ],
-            "line": 5,
-            "name": "user can click Location button",
+            "line": 4,
+            "name": ":User can click on searchBox",
             "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_can_click_location_button()"
+              "location": "stepDefinitions.SearchStepDefinition.user_can_click_on_search_box()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 1000600,
+                  "duration": 996600,
                   "status": "passed"
                 },
                 "match": {
@@ -155,7 +155,7 @@
               },
               {
                 "result": {
-                  "duration": 1000600,
+                  "duration": 999500,
                   "status": "passed"
                 },
                 "match": {
@@ -164,7 +164,7 @@
               },
               {
                 "result": {
-                  "duration": 1001000,
+                  "duration": 999600,
                   "status": "passed"
                 },
                 "match": {
@@ -173,6 +173,7 @@
               },
               {
                 "result": {
+                  "duration": 999200,
                   "status": "passed"
                 },
                 "match": {
@@ -185,15 +186,15 @@
         ]
       },
       {
-        "start_timestamp": "2021-07-06T20:10:17.428Z",
-        "line": 7,
-        "name": "select hilton hotel",
+        "start_timestamp": "2021-07-08T00:58:48.420Z",
+        "line": 6,
+        "name": "Search a hotelRoom",
         "description": "",
-        "id": "user-can-select-location;select-hilton-hotel",
+        "id": "user-can-search-a-room-in-hilton-hotel;search-a-hotelroom",
         "after": [
           {
             "result": {
-              "duration": 2388486300,
+              "duration": 2644319300,
               "status": "passed"
             },
             "match": {
@@ -210,7 +211,6 @@
           },
           {
             "result": {
-              "duration": 997800,
               "status": "passed"
             },
             "match": {
@@ -231,7 +231,7 @@
         "steps": [
           {
             "result": {
-              "duration": 193904700,
+              "duration": 283837400,
               "status": "passed"
             },
             "before": [
@@ -245,7 +245,7 @@
               },
               {
                 "result": {
-                  "duration": 999600,
+                  "duration": 1999100,
                   "status": "passed"
                 },
                 "match": {
@@ -254,7 +254,7 @@
               },
               {
                 "result": {
-                  "duration": 1002700,
+                  "duration": 998700,
                   "status": "passed"
                 },
                 "match": {
@@ -263,7 +263,99 @@
               },
               {
                 "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": ":User can enter cityName \"NYC\" and select",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"NYC\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.SearchStepDefinition.user_can_enter_city_name_and_select(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
                   "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3306107400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2998300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 5996600,
                   "status": "passed"
                 },
                 "match": {
@@ -272,13 +364,753 @@
               }
             ],
             "line": 8,
-            "name": "user can select Asia zone",
+            "name": ":User can select city",
             "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_can_select_asia_zone()"
+              "location": "stepDefinitions.SearchStepDefinition.user_can_select_city()"
             },
             "after": [
               {
                 "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3824811100,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2997500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": ":User can select entry and exits date",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_select_entry_and_exits_date()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1071386800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": ":User can select guest Number",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_select_guest_number()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 451741700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": ":User can select special Rate",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_select_special_rate()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 13532519500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 3999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2002400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 12,
+            "name": ":User can click find Hotel",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_click_find_hotel()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 23176860200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1004300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": ":User in Hilton hotel homePage",
+            "match": {
+              "location": "stepDefinitions.JoinStepDefinition.user_in_hilton_hotel_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 149913600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": ":User can click on searchBox",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_click_on_search_box()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 7994900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1004000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-08T01:00:00.730Z",
+        "line": 14,
+        "name": "Search a hotelRoom",
+        "description": "",
+        "id": "user-can-search-a-room-in-hilton-hotel;search-a-hotelroom",
+        "after": [
+          {
+            "result": {
+              "duration": 1326311600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.LocationStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.JoinStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FooterLinkStepDefinition.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 558680600,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2996000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": ":User can enter cityName \"TX\" and select",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TX\"",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.SearchStepDefinition.user_can_enter_city_name_and_select(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1093373500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 6995500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 4997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 16,
+            "name": ":User can select  Texas city",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_select_texas_city()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 996200,
                   "status": "passed"
                 },
                 "match": {
@@ -315,7 +1147,7 @@
           },
           {
             "result": {
-              "duration": 8615123600,
+              "duration": 3674448800,
               "status": "passed"
             },
             "before": [
@@ -329,7 +1161,173 @@
               },
               {
                 "result": {
-                  "duration": 1997900,
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 17,
+            "name": ":User can select entry and exits date",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_select_entry_and_exits_date()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 803554300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1003400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": ":User can select guest Number",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_select_guest_number()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 537692400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000100,
                   "status": "passed"
                 },
                 "match": {
@@ -347,7 +1345,7 @@
               },
               {
                 "result": {
-                  "duration": 1000400,
+                  "duration": 998000,
                   "status": "passed"
                 },
                 "match": {
@@ -355,10 +1353,10 @@
                 }
               }
             ],
-            "line": 9,
-            "name": "user can select Indian Hotel",
+            "line": 19,
+            "name": ":User can select special Rate",
             "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_can_select_indian_Hotel()"
+              "location": "stepDefinitions.SearchStepDefinition.user_can_select_special_rate()"
             },
             "after": [
               {
@@ -371,7 +1369,6 @@
               },
               {
                 "result": {
-                  "duration": 999600,
                   "status": "passed"
                 },
                 "match": {
@@ -388,6 +1385,7 @@
               },
               {
                 "result": {
+                  "duration": 998500,
                   "status": "passed"
                 },
                 "match": {
@@ -399,116 +1397,22 @@
           },
           {
             "result": {
-              "duration": 701158000,
+              "duration": 40797423000,
               "status": "passed"
             },
             "before": [
-              {
-                "result": {
-                  "duration": 999500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999600,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
-                }
-              },
               {
                 "result": {
                   "duration": 999100,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1998600,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 10,
-            "name": "user can select first one from the Indian Hotel list",
-            "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_can_select_first_one_from_the_Indian_Hotel_list()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 999500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999800,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 23849913700,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
                   "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
                 }
               },
               {
                 "result": {
-                  "duration": 999000,
+                  "duration": 1998500,
                   "status": "passed"
                 },
                 "match": {
@@ -517,6 +1421,7 @@
               },
               {
                 "result": {
+                  "duration": 999600,
                   "status": "passed"
                 },
                 "match": {
@@ -533,14 +1438,15 @@
                 }
               }
             ],
-            "line": 4,
-            "name": "user in hotel HomePage",
+            "line": 20,
+            "name": ":User can click find Hotel",
             "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_in_hotel_home_page()"
+              "location": "stepDefinitions.SearchStepDefinition.user_can_click_find_hotel()"
             },
             "after": [
               {
                 "result": {
+                  "duration": 998000,
                   "status": "passed"
                 },
                 "match": {
@@ -549,259 +1455,11 @@
               },
               {
                 "result": {
-                  "duration": 998700,
+                  "duration": 996400,
                   "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3662092700,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 2996800,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000800,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1998200,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 5,
-            "name": "user can click Location button",
-            "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_can_click_location_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-07-06T20:11:05.037Z",
-        "line": 12,
-        "name": "select hilton hotel",
-        "description": "",
-        "id": "user-can-select-location;select-hilton-hotel",
-        "after": [
-          {
-            "result": {
-              "duration": 1472799900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SearchStepDefinition.cleanUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1003400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.LocationStepDefinition.cleanUp()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.JoinStepDefinition.cleanUp()"
-            }
-          },
-          {
-            "result": {
-              "duration": 1998200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.FooterLinkStepDefinition.cleanUp()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 131925500,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 2001700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 989100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000200,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 13,
-            "name": "user can select North America zone",
-            "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_can_select_north_america_zone()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 9935696900,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
                 }
               },
               {
@@ -810,144 +1468,12 @@
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 998500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 14,
-            "name": "user can select Alaska Hotel",
-            "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_can_select_alaska_Hotel()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
                   "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
                 }
               },
               {
                 "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 304825500,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FooterLinkStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 15,
-            "name": "user can select first one from the Alaska Hotel list",
-            "match": {
-              "location": "stepDefinitions.LocationStepDefinition.user_can_select_first_one_from_the_Alaska_Hotel_list()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "duration": 998900,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.LocationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.JoinStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999800,
+                  "duration": 999000,
                   "status": "passed"
                 },
                 "match": {
@@ -960,11 +1486,11 @@
         ]
       }
     ],
-    "name": "User can select location",
+    "name": "user can search a room in hilton hotel",
     "description": "",
-    "id": "user-can-select-location",
+    "id": "user-can-search-a-room-in-hilton-hotel",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Location.feature",
+    "uri": "file:src/test/java/features/Search.feature",
     "tags": []
   }
 ]

@@ -52,4 +52,20 @@ public class SearchProductStepDefinition extends WebAPI {
     public void user_can_validate_massage() {
     product.ValidateMgs("Provider Search");
     }
+    @Then(":User can click health insurance plans texas")
+    public void user_can_click_health_insurance_plans_texas() {
+        product.clickTexasHealthPlan();
+    }
+    @Then(":User can click Short term health insurance plan")
+    public void user_can_click_short_term_health_insurance_plan() throws InterruptedException {
+
+        product.clickTexasShortTermHealthPlan();
+        waitFor(5);
+        handleNewTab1(driver);
+    }
+    @Then(":User can validate massage texas")
+    public void user_can_validate_massage_texas() throws InterruptedException {
+        waitFor(5);
+        product.ValidateMgsTexas("Enter your info to find Short Term plan options");
+    }
 }

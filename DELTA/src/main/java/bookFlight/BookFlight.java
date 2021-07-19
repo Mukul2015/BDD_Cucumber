@@ -8,6 +8,8 @@ import org.testng.Assert;
 import static bookFlight.BookFlightWebElement.*;
 
 public class BookFlight extends WebAPI {
+    @FindBy(xpath = closeUpWebElement)
+    public WebElement closeUp;
     @FindBy(xpath = bookFlightWebElement)
     public WebElement bookFlight;
     @FindBy(xpath = departureFlightWebElement)
@@ -16,12 +18,20 @@ public class BookFlight extends WebAPI {
     public WebElement departureInput;
     @FindBy(xpath = selectDepartureWebElement)
     public WebElement selectDeparture;
+    @FindBy(xpath = selectDeparture2WebElement)
+    public WebElement selectDeparture2;
+    @FindBy(xpath = selectDeparture3WebElement)
+    public WebElement selectDeparture3;
     @FindBy(xpath = arrivalFlightWebElement)
     public WebElement arrivalFlight;
     @FindBy(xpath = arrivalInputWebElement)
     public WebElement arrivalInput;
     @FindBy(xpath = selectArrivalWebElement)
     public WebElement selectArrival;
+   @FindBy(xpath = selectArrival2WebElement)
+    public WebElement selectArrival2;
+   @FindBy(xpath = selectArrival3WebElement)
+    public WebElement selectArrival3;
     @FindBy(xpath = tripeTypeWebElement)
     public WebElement tripeType;
     @FindBy(xpath = roundTripeTypeWebElement)
@@ -40,18 +50,13 @@ public class BookFlight extends WebAPI {
     public WebElement passengerNumber;
     @FindBy(xpath = selectPassengerWebElement)
     public WebElement selectPassenger;
-    @FindBy(xpath = showFareWebElement)
-    public WebElement showFare;
-    @FindBy(xpath = bestFareWebElement)
-    public WebElement bestFare;
-    @FindBy(xpath = selectBestFareWebElement)
-    public WebElement selectBestFare;
-    @FindBy(xpath = submitButtonWebElement)
-    public WebElement submitButton;
+    @FindBy(xpath = selectNextWebElement)
+    public WebElement selectNext;
     @FindBy(xpath = verifyCompareWebElement)
     public WebElement verifyCompare;
 
     public void clickBook(){
+        closeUp.click();
         bookFlight.click();
     }
     public void clickDepartureFlight(){
@@ -60,21 +65,31 @@ public class BookFlight extends WebAPI {
     public void clickDepartureFlightInput(String name){
         departureInput.sendKeys(name);
     }
-    public void selectDeparture(){
+    public void selectDepartureFlight(){
         selectDeparture.click();
-       //mouseHoverByXpath1(selectDepartureWebElement);
     }
-    public void clickArrivalFlight() throws InterruptedException {
-        waitFor(3);
+    public void selectDeparture2Flight(){
+        selectDeparture2.click();
+    }
+    public void selectDeparture3Flight(){
+        selectDeparture3.click();
+    }
+    public void clickArrivalFlight() {
+
         arrivalFlight.click();
     }
-    public void clickArrivalFlightInput(String name) throws InterruptedException {
-        waitFor(3);
+    public void clickArrivalFlightInput(String name)  {
+
         arrivalInput.sendKeys(name);
     }
     public void selectArrivalFlight(){
-       // mouseHoverByXpath1(selectArrivalWebElement);
         selectArrival.click();
+    }
+    public void selectArrival2Flight(){
+        selectArrival2.click();
+    }
+    public void selectArrival3Flight(){
+        selectArrival3.click();
     }
     public void clickTripeType(){
         tripeType.click();
@@ -95,25 +110,19 @@ public class BookFlight extends WebAPI {
     public void clickFlightDateDone(){
         arrivalDate.click();
         FlightDateDone.click();
-
     }
-    public void clickPassengerNumber(){
+    public void clickPassengerNumber() throws InterruptedException {
+        waitFor(3);
         passengerNumber.click();
         selectPassenger.click();
     }
-    public void clickShowFare(){
-        showFare.click();
-    }
-    public void clickBestFare(){
-        bestFare.click();
-        selectBestFare.click();
-    }
-    public void clickSubmitButton(){
-        submitButton.click();
+    public void selectNextButton() throws InterruptedException {
+        waitFor(3);
+        selectNext.click();
     }
     public void validateCompare(String expected) throws InterruptedException {
         waitFor(10);
         String actual =verifyCompare.getText();
-        Assert.assertEquals(actual,expected,"match");
+        Assert.assertEquals(actual,expected);
     }
 }

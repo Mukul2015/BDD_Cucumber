@@ -1,14 +1,16 @@
 
-Scenario Outline: find a pharmacy                                 [90m# src/test/java/features/FindPharmacy.feature:12[0m
-  [32mGiven [0m[32m:User in United Health Care HomePage[0m                      [90m# stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()[0m
-  [32mThen [0m[32m:User can click find doctor Button[0m                         [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_find_doctor_button()[0m
-  [32mThen [0m[32m:User can click pharmacy Button[0m                            [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_pharmacy_button()[0m
-  [32mAnd [0m[32m:User can enter pharmacy Name [0m[32m[1m"Queens drug"[0m[32m and zip [0m[32m[1m"11373"[0m [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_enter_pharmacy_name_and_zip(java.lang.String,java.lang.String)[0m
-  [32mThen [0m[32m:User can click search Button[0m                              [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_search_button()[0m
+Scenario: search a product                   [90m# src/test/java/features/SearchProduct.feature:4[0m
+  [32mGiven [0m[32m:User in United Health Care HomePage[0m [90m# stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()[0m
+  [32mThen [0m[32m:User can search [0m[32m[1m"NYC"[0m                [90m# stepDefinitions.SearchProductStepDefinition.user_can_search(java.lang.String)[0m
+  [32mThen [0m[32m:User can click products[0m              [90m# stepDefinitions.SearchProductStepDefinition.user_can_click_products()[0m
+  [32mThen [0m[32m:User can click vision plan[0m           [90m# stepDefinitions.SearchProductStepDefinition.user_can_click_vision_plan()[0m
+  [32mThen [0m[32m:User can enter zipCode [0m[32m[1m"25641"[0m       [90m# stepDefinitions.SearchProductStepDefinition.user_can_enter_zip_code(java.lang.String)[0m
+  [32mThen [0m[32m:User can click search[0m                [90m# stepDefinitions.SearchProductStepDefinition.user_can_click_search()[0m
+  [32mAnd [0m[32m:User can validate massage[0m             [90m# stepDefinitions.SearchProductStepDefinition.user_can_validate_massage()[0m
 
-Scenario Outline: find a pharmacy                         [90m# src/test/java/features/FindPharmacy.feature:13[0m
-  [32mGiven [0m[32m:User in United Health Care HomePage[0m              [90m# stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()[0m
-  [32mThen [0m[32m:User can click find doctor Button[0m                 [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_find_doctor_button()[0m
-  [32mThen [0m[32m:User can click pharmacy Button[0m                    [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_pharmacy_button()[0m
-  [32mAnd [0m[32m:User can enter pharmacy Name [0m[32m[1m"cvs"[0m[32m and zip [0m[32m[1m"11373"[0m [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_enter_pharmacy_name_and_zip(java.lang.String,java.lang.String)[0m
-  [32mThen [0m[32m:User can click search Button[0m                      [90m# stepDefinitions.FindPharmacyStepDefinition.user_can_click_search_button()[0m
+Scenario: search a product                              [90m# src/test/java/features/SearchProduct.feature:12[0m
+  [32mGiven [0m[32m:User in United Health Care HomePage[0m            [90m# stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()[0m
+  [32mThen [0m[32m:User can search [0m[32m[1m"TX"[0m                            [90m# stepDefinitions.SearchProductStepDefinition.user_can_search(java.lang.String)[0m
+  [32mThen [0m[32m:User can click health insurance plans texas[0m     [90m# stepDefinitions.SearchProductStepDefinition.user_can_click_health_insurance_plans_texas()[0m
+  [32mThen [0m[32m:User can click Short term health insurance plan[0m [90m# stepDefinitions.SearchProductStepDefinition.user_can_click_short_term_health_insurance_plan()[0m
+  [32mAnd [0m[32m:User can validate massage texas[0m                  [90m# stepDefinitions.SearchProductStepDefinition.user_can_validate_massage_texas()[0m

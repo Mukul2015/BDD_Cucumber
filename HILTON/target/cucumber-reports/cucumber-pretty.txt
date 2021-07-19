@@ -1,14 +1,20 @@
 
-Scenario: select hilton hotel                               [90m# src/test/java/features/Location.feature:7[0m
-  [32mGiven [0m[32muser in hotel HomePage[0m                              [90m# stepDefinitions.LocationStepDefinition.user_in_hotel_home_page()[0m
-  [32mThen [0m[32muser can click Location button[0m                       [90m# stepDefinitions.LocationStepDefinition.user_can_click_location_button()[0m
-  [32mThen [0m[32muser can select Asia zone[0m                            [90m# stepDefinitions.LocationStepDefinition.user_can_select_asia_zone()[0m
-  [32mThen [0m[32muser can select Indian Hotel[0m                         [90m# stepDefinitions.LocationStepDefinition.user_can_select_indian_Hotel()[0m
-  [32mThen [0m[32muser can select first one from the Indian Hotel list[0m [90m# stepDefinitions.LocationStepDefinition.user_can_select_first_one_from_the_Indian_Hotel_list()[0m
+Scenario: Search a hotelRoom                     [90m# src/test/java/features/Search.feature:6[0m
+  [32mGiven [0m[32m:User in Hilton hotel homePage[0m           [90m# stepDefinitions.JoinStepDefinition.user_in_hilton_hotel_home_page()[0m
+  [32mThen [0m[32m:User can click on searchBox[0m              [90m# stepDefinitions.SearchStepDefinition.user_can_click_on_search_box()[0m
+  [32mThen [0m[32m:User can enter cityName [0m[32m[1m"NYC"[0m[32m and select[0m [90m# stepDefinitions.SearchStepDefinition.user_can_enter_city_name_and_select(java.lang.String)[0m
+  [32mThen [0m[32m:User can select city[0m                     [90m# stepDefinitions.SearchStepDefinition.user_can_select_city()[0m
+  [32mThen [0m[32m:User can select entry and exits date[0m     [90m# stepDefinitions.SearchStepDefinition.user_can_select_entry_and_exits_date()[0m
+  [32mThen [0m[32m:User can select guest Number[0m             [90m# stepDefinitions.SearchStepDefinition.user_can_select_guest_number()[0m
+  [32mThen [0m[32m:User can select special Rate[0m             [90m# stepDefinitions.SearchStepDefinition.user_can_select_special_rate()[0m
+  [32mThen [0m[32m:User can click find Hotel[0m                [90m# stepDefinitions.SearchStepDefinition.user_can_click_find_hotel()[0m
 
-Scenario: select hilton hotel                               [90m# src/test/java/features/Location.feature:12[0m
-  [32mGiven [0m[32muser in hotel HomePage[0m                              [90m# stepDefinitions.LocationStepDefinition.user_in_hotel_home_page()[0m
-  [32mThen [0m[32muser can click Location button[0m                       [90m# stepDefinitions.LocationStepDefinition.user_can_click_location_button()[0m
-  [32mThen [0m[32muser can select North America zone[0m                   [90m# stepDefinitions.LocationStepDefinition.user_can_select_north_america_zone()[0m
-  [32mThen [0m[32muser can select Alaska Hotel[0m                         [90m# stepDefinitions.LocationStepDefinition.user_can_select_alaska_Hotel()[0m
-  [32mThen [0m[32muser can select first one from the Alaska Hotel list[0m [90m# stepDefinitions.LocationStepDefinition.user_can_select_first_one_from_the_Alaska_Hotel_list()[0m
+Scenario: Search a hotelRoom                    [90m# src/test/java/features/Search.feature:14[0m
+  [32mGiven [0m[32m:User in Hilton hotel homePage[0m          [90m# stepDefinitions.JoinStepDefinition.user_in_hilton_hotel_home_page()[0m
+  [32mThen [0m[32m:User can click on searchBox[0m             [90m# stepDefinitions.SearchStepDefinition.user_can_click_on_search_box()[0m
+  [32mThen [0m[32m:User can enter cityName [0m[32m[1m"TX"[0m[32m and select[0m [90m# stepDefinitions.SearchStepDefinition.user_can_enter_city_name_and_select(java.lang.String)[0m
+  [32mThen [0m[32m:User can select  Texas city[0m             [90m# stepDefinitions.SearchStepDefinition.user_can_select_texas_city()[0m
+  [32mThen [0m[32m:User can select entry and exits date[0m    [90m# stepDefinitions.SearchStepDefinition.user_can_select_entry_and_exits_date()[0m
+  [32mThen [0m[32m:User can select guest Number[0m            [90m# stepDefinitions.SearchStepDefinition.user_can_select_guest_number()[0m
+  [32mThen [0m[32m:User can select special Rate[0m            [90m# stepDefinitions.SearchStepDefinition.user_can_select_special_rate()[0m
+  [32mThen [0m[32m:User can click find Hotel[0m               [90m# stepDefinitions.SearchStepDefinition.user_can_click_find_hotel()[0m

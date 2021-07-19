@@ -16,4 +16,5 @@ public class SearchWebElement {
     public static final String specialRateRadioButtonWebElement="//input[@id='search-form-gvmtRates']";
     public static final String closeSpecialRateButtonWebElement="//button[@aria-label='Update & Close Special Rates']";
     public static final String findHotelWebElement="//button[normalize-space()='Find a Hotel']";
+    public static final String selectTexasCityWebElement="//span[normalize-space()='Texas']";
 }

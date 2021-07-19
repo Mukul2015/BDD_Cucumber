@@ -1,15 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="0.843">
-<testcase classname="SignUp in Delta Airlines" name="User can SignUp" time="0.265">
-<system-out><![CDATA[Given User on Delta Airlines HomePage.......................................passed
-Then User can click SIGN UP Button..........................................passed
-Then User can select their Prefix...........................................passed
-Then User can fillUp firstName and lastName.................................passed
-Then User can select their Gender...........................................passed
-And User can select their Country...........................................passed
-And User can fillUp address and city and zipCode............................passed
-And User can select their CountryCode.......................................passed
-And User can fillUp AreaCode and PhoneNumber and Email and ConfirmEmail.....passed
-And User can fillUp UserName and Password and ConfirmPassword...............passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="30.109">
+<testcase classname="Search Delta Airline product" name="User Can Search Delta Airline product" time="29.516">
+<system-out><![CDATA[Given :user in Delta HomePage...............................................passed
+Then :user can click search button..........................................passed
+Then :User Can enter "AUS" in searchBox.....................................passed
+Then :user can click searchField search button..............................passed
+Then :user can click Cashless airport.......................................passed
+And :user can validate Cashless.............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

@@ -1,0 +1,24 @@
+
+Scenario: User can Select product using drop Down           [90m# src/test/java/features/ProductDropDown.feature:5[0m
+  [32mGiven [0m[32muser in amazon homepage[0m                             [90m# stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()[0m
+  [32mThen [0m[32mUser can select product Using dropDown[0m               [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()[0m
+  [32mThen [0m[32mUser can search samsungTv [0m[32m[1m"samsungTv"[0m[32m Using dropDown[0m [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_search_samsung_tv_using_drop_down(java.lang.String)[0m
+  [32mThen [0m[32mUser can verify samsungTv product Mgs[0m                [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_verify_samsung_tv_product_mgs()[0m
+
+Scenario: User can Select product using drop Down                   [90m# src/test/java/features/ProductDropDown.feature:9[0m
+  [32mGiven [0m[32muser in amazon homepage[0m                                     [90m# stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()[0m
+  [32mThen [0m[32mUser can select product Using dropDown[0m                       [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()[0m
+  [32mThen [0m[32mUser can search samsung phone [0m[32m[1m"samsung phone"[0m[32m Using dropDown[0m [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_search_samsung_phone_samsung_phone_using_drop_down(java.lang.String)[0m
+  [32mThen [0m[32mUser can verify samsung phone product Mgs[0m                    [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_verify_samsung_phone_product_mgs()[0m
+
+Scenario: User can Select product using drop Down                             [90m# src/test/java/features/ProductDropDown.feature:13[0m
+  [32mGiven [0m[32muser in amazon homepage[0m                                               [90m# stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()[0m
+  [32mThen [0m[32mUser can select product Using dropDown[0m                                 [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()[0m
+  [32mThen [0m[32mUser can search samsung phone case [0m[32m[1m"samsung phone case"[0m[32m Using dropDown[0m [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_search_samsung_phone_case_using_drop_down(java.lang.String)[0m
+  [32mThen [0m[32mUser can verify samsungPhoneCase product Mgs[0m                           [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_verify_samsung_phone_case_product_mgs()[0m
+
+Scenario: User can Select product using drop Down      [90m# src/test/java/features/ProductDropDown.feature:17[0m
+  [32mGiven [0m[32muser in amazon homepage[0m                        [90m# stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()[0m
+  [32mThen [0m[32mUser can select product Using dropDown[0m          [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()[0m
+  [32mThen [0m[32mUser can search sonyTv [0m[32m[1m"sony Tv"[0m[32m Using dropDown[0m [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_search_sony_tv_using_drop_down(java.lang.String)[0m
+  [32mThen [0m[32mUser can verify sonyTv product Mgs[0m              [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_verify_sony_tv_product_mgs()[0m

@@ -44,6 +44,10 @@ public class SearchStepDefinition extends WebAPI {
     public void user_can_enter_in_search_box(String string) {
     product.clickSearchField(string);
     }
+//    @Then(":User Can enter jkf {string} in searchBox")
+//    public void user_can_enter_jkf_in_search_box(String string) {
+//        product.clickSearchJfkField(string);
+//    }
     @Then(":user can click searchField search button")
     public void user_can_click_searchField_search_button() {
     product.clickSearch();
@@ -52,8 +56,25 @@ public class SearchStepDefinition extends WebAPI {
     public void user_can_click_Flight_Partners() {
     product.clickFlightPartner();
     }
+    @Then(":user can click Cashless airport")
+    public void user_can_click_Cashless_airport() {
+    product.ClickCashlessAirports();
+    }
+    @Then(":user can click NewYork Jfk")
+    public void user_can_click_NewYork_Jfk() {
+    product.clickJfkField();
+    }
+
     @Then(":user can validate Friends")
     public void user_can_validate_Friends() {
     product.verifyFriends("Friends in High Places");
+    }
+    @Then(":user can validate NewYorkCity")
+    public void user_can_validate_NewYorkCity() {
+    product.validateNewYork("New York City");
+    }
+    @Then(":user can validate Cashless")
+    public void user_can_validate_Cashless() {
+    product.validateCashless("Cashless Airports");
     }
 }

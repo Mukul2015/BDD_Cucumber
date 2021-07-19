@@ -1,151 +1,198 @@
 [
   {
-    "source": "user in hotel HomePage",
+    "source": ":User in Hilton hotel homePage",
     "steps": [
       {
-        "name": "user in hotel HomePage",
+        "name": ":User in Hilton hotel homePage",
         "aggregatedDurations": {
-          "median": 27.77025415,
-          "average": 27.77025415
+          "median": 34.7487941,
+          "average": 34.7487941
         },
         "durations": [
           {
-            "duration": 31.6905946,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:4"
+            "duration": 46.320728,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:3"
           },
           {
-            "duration": 23.8499137,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:4"
+            "duration": 23.1768602,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:3"
           }
         ]
       }
     ]
   },
   {
-    "source": "user can click Location button",
+    "source": ":User can click on searchBox",
     "steps": [
       {
-        "name": "user can click Location button",
+        "name": ":User can click on searchBox",
         "aggregatedDurations": {
-          "median": 3.659075,
-          "average": 3.659075
+          "median": 0.28783525,
+          "average": 0.28783525
         },
         "durations": [
           {
-            "duration": 3.6560573,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:5"
+            "duration": 0.4257569,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:4"
           },
           {
-            "duration": 3.6620927,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:5"
+            "duration": 0.1499136,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:4"
           }
         ]
       }
     ]
   },
   {
-    "source": "user can select Asia zone",
+    "source": ":User can enter cityName {string} and select",
     "steps": [
       {
-        "name": "user can select Asia zone",
+        "name": ":User can enter cityName \"NYC\" and select",
         "aggregatedDurations": {
-          "median": 0.1939047,
-          "average": 0.1939047
+          "median": 0.2838374,
+          "average": 0.2838374
         },
         "durations": [
           {
-            "duration": 0.1939047,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:8"
+            "duration": 0.2838374,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:7"
+          }
+        ]
+      },
+      {
+        "name": ":User can enter cityName \"TX\" and select",
+        "aggregatedDurations": {
+          "median": 0.5586806,
+          "average": 0.5586806
+        },
+        "durations": [
+          {
+            "duration": 0.5586806,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:15"
           }
         ]
       }
     ]
   },
   {
-    "source": "user can select Indian Hotel",
+    "source": ":User can select city",
     "steps": [
       {
-        "name": "user can select Indian Hotel",
+        "name": ":User can select city",
         "aggregatedDurations": {
-          "median": 8.6151236,
-          "average": 8.6151236
+          "median": 3.3061074,
+          "average": 3.3061074
         },
         "durations": [
           {
-            "duration": 8.6151236,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:9"
+            "duration": 3.3061074,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:8"
           }
         ]
       }
     ]
   },
   {
-    "source": "user can select first one from the Indian Hotel list",
+    "source": ":User can select entry and exits date",
     "steps": [
       {
-        "name": "user can select first one from the Indian Hotel list",
+        "name": ":User can select entry and exits date",
         "aggregatedDurations": {
-          "median": 0.701158,
-          "average": 0.701158
+          "median": 3.74962995,
+          "average": 3.74962995
         },
         "durations": [
           {
-            "duration": 0.701158,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:10"
+            "duration": 3.8248111,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:9"
+          },
+          {
+            "duration": 3.6744488,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:17"
           }
         ]
       }
     ]
   },
   {
-    "source": "user can select North America zone",
+    "source": ":User can select guest Number",
     "steps": [
       {
-        "name": "user can select North America zone",
+        "name": ":User can select guest Number",
         "aggregatedDurations": {
-          "median": 0.1319255,
-          "average": 0.1319255
+          "median": 0.93747055,
+          "average": 0.93747055
         },
         "durations": [
           {
-            "duration": 0.1319255,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:13"
+            "duration": 1.0713868,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:10"
+          },
+          {
+            "duration": 0.8035543,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:18"
           }
         ]
       }
     ]
   },
   {
-    "source": "user can select Alaska Hotel",
+    "source": ":User can select special Rate",
     "steps": [
       {
-        "name": "user can select Alaska Hotel",
+        "name": ":User can select special Rate",
         "aggregatedDurations": {
-          "median": 9.9356969,
-          "average": 9.9356969
+          "median": 0.49471705,
+          "average": 0.49471705
         },
         "durations": [
           {
-            "duration": 9.9356969,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:14"
+            "duration": 0.4517417,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:11"
+          },
+          {
+            "duration": 0.5376924,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:19"
           }
         ]
       }
     ]
   },
   {
-    "source": "user can select first one from the Alaska Hotel list",
+    "source": ":User can click find Hotel",
     "steps": [
       {
-        "name": "user can select first one from the Alaska Hotel list",
+        "name": ":User can click find Hotel",
         "aggregatedDurations": {
-          "median": 0.3048255,
-          "average": 0.3048255
+          "median": 27.16497125,
+          "average": 27.16497125
         },
         "durations": [
           {
-            "duration": 0.3048255,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Location.feature:15"
+            "duration": 13.5325195,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:12"
+          },
+          {
+            "duration": 40.797423,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:20"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can select  Texas city",
+    "steps": [
+      {
+        "name": ":User can select  Texas city",
+        "aggregatedDurations": {
+          "median": 1.0933735,
+          "average": 1.0933735
+        },
+        "durations": [
+          {
+            "duration": 1.0933735,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/HILTON/src/test/java/features/Search.feature:16"
           }
         ]
       }

@@ -37,6 +37,8 @@ public class SearchHotel extends WebAPI {
     public WebElement closeSpecialRateButton;
     @FindBy(xpath = findHotelWebElement)
     public WebElement findHotel;
+    @FindBy(xpath = selectTexasCityWebElement)
+    public WebElement selectTexasCity;
 
     public void clickSearch(){
         search.click();
@@ -51,8 +53,8 @@ public class SearchHotel extends WebAPI {
     }
     public void reservationDate() throws InterruptedException {
         date.click();
-        firstDate.click();
         waitFor(3);
+        firstDate.click();
 //        nextPage.click();
 //        nextDate.click();
         closeButton.click();
@@ -69,6 +71,10 @@ public class SearchHotel extends WebAPI {
     }
     public void clickSubmit(){
         closeSpecialRateButton.click();
-        findHotel.click();
+        findHotel.click(); }
+
+    public void clickSelectTexasCity(){
+        selectTexasCity.click();
+
     }
 }

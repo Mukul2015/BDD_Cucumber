@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="77.227">
+<testcase classname="User can Select product using drop Down" name="User can Select product using drop Down" time="19.703">
+<system-out><![CDATA[Given user in amazon homepage...............................................passed
+Then User can select product Using dropDown.................................passed
+Then User can search samsungTv "samsungTv" Using dropDown...................passed
+Then User can verify samsungTv product Mgs..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can Select product using drop Down" name="User can Select product using drop Down 2" time="18.079">
+<system-out><![CDATA[Given user in amazon homepage...............................................passed
+Then User can select product Using dropDown.................................passed
+Then User can search samsung phone "samsung phone" Using dropDown...........passed
+Then User can verify samsung phone product Mgs..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can Select product using drop Down" name="User can Select product using drop Down 3" time="18.46">
+<system-out><![CDATA[Given user in amazon homepage...............................................passed
+Then User can select product Using dropDown.................................passed
+Then User can search samsung phone case "samsung phone case" Using dropDown.passed
+Then User can verify samsungPhoneCase product Mgs...........................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can Select product using drop Down" name="User can Select product using drop Down 4" time="20.203">
+<system-out><![CDATA[Given user in amazon homepage...............................................passed
+Then User can select product Using dropDown.................................passed
+Then User can search sonyTv "sony Tv" Using dropDown........................passed
+Then User can verify sonyTv product Mgs.....................................passed
+]]></system-out>
+</testcase>
+</testsuite>

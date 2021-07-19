@@ -3,50 +3,21 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-07-06T21:09:18.170Z",
-        "line": 12,
-        "name": "find a pharmacy",
+        "line": 2,
+        "name": "",
         "description": "",
-        "id": "find-pharmacy-using-united-health-care-webside;find-a-pharmacy;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 947259400,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.SearchProductStepDefinition.cleanUp()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.RegistrationStepDefinition.cleanUp()"
-            }
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepDefinitions.FindPharmacyStepDefinition.cleanUp()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
+        "type": "background",
+        "keyword": "Background",
         "steps": [
           {
             "result": {
-              "duration": 11298082100,
+              "duration": 8232555200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 67957300,
+                  "duration": 62496200,
                   "status": "passed"
                 },
                 "match": {
@@ -55,7 +26,15 @@
               },
               {
                 "result": {
-                  "duration": 3998400,
+                  "duration": 15623900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
                   "status": "passed"
                 },
                 "match": {
@@ -64,7 +43,6 @@
               },
               {
                 "result": {
-                  "duration": 1997900,
                   "status": "passed"
                 },
                 "match": {
@@ -72,7 +50,7 @@
                 }
               }
             ],
-            "line": 4,
+            "line": 3,
             "name": ":User in United Health Care HomePage",
             "match": {
               "location": "stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()"
@@ -80,124 +58,11 @@
             "after": [
               {
                 "result": {
-                  "duration": 2997800,
+                  "duration": 2998500,
                   "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2456591900,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1998100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999200,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 5,
-            "name": ":User can click find doctor Button",
-            "match": {
-              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_find_doctor_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 998700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 490718100,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 999500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 5996000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
                 }
               },
               {
@@ -206,34 +71,21 @@
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 6,
-            "name": ":User can click pharmacy Button",
-            "match": {
-              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_pharmacy_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
                   "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
                 }
               },
               {
                 "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -241,164 +93,20 @@
                 }
               }
             ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 7823831000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 999600,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999200,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 7,
-            "name": ":User can enter pharmacy Name \"Queens drug\" and zip \"11373\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"Queens drug\"",
-                  "offset": 30
-                },
-                {
-                  "val": "\"11373\"",
-                  "offset": 52
-                }
-              ],
-              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_enter_pharmacy_name_and_zip(java.lang.String,java.lang.String)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 236938000,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 998100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 997600,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 8,
-            "name": ":User can click search Button",
-            "match": {
-              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_search_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 997400,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
+            "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2021-07-06T21:09:41.744Z",
-        "line": 13,
-        "name": "find a pharmacy",
+        "start_timestamp": "2021-07-08T00:20:49.371Z",
+        "line": 4,
+        "name": "search a product",
         "description": "",
-        "id": "find-pharmacy-using-united-health-care-webside;find-a-pharmacy;;3",
+        "id": "search-a-product-in-united-health-care;search-a-product",
         "after": [
           {
             "result": {
-              "duration": 947696600,
+              "duration": 1043047600,
               "status": "passed"
             },
             "match": {
@@ -407,11 +115,18 @@
           },
           {
             "result": {
-              "duration": 998400,
               "status": "passed"
             },
             "match": {
               "location": "stepDefinitions.RegistrationStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.InsurancePlanStepDefinition.cleanUp()"
             }
           },
           {
@@ -424,11 +139,11 @@
           }
         ],
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 8953952800,
+              "duration": 4092754400,
               "status": "passed"
             },
             "before": [
@@ -443,7 +158,16 @@
               },
               {
                 "result": {
-                  "duration": 999800,
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000300,
                   "status": "passed"
                 },
                 "match": {
@@ -452,75 +176,7 @@
               },
               {
                 "result": {
-                  "duration": 999700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 4,
-            "name": ":User in United Health Care HomePage",
-            "match": {
-              "location": "stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()"
-            },
-            "after": [
-              {
-                "result": {
-                  "duration": 999600,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "duration": 1000200,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1737076600,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 998500,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 999700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
+                  "duration": 998900,
                   "status": "passed"
                 },
                 "match": {
@@ -529,9 +185,15 @@
               }
             ],
             "line": 5,
-            "name": ":User can click find doctor Button",
+            "name": ":User can search \"NYC\"",
             "match": {
-              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_find_doctor_button()"
+              "arguments": [
+                {
+                  "val": "\"NYC\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_search(java.lang.String)"
             },
             "after": [
               {
@@ -544,6 +206,7 @@
               },
               {
                 "result": {
+                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -552,7 +215,15 @@
               },
               {
                 "result": {
-                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999300,
                   "status": "passed"
                 },
                 "match": {
@@ -564,13 +235,13 @@
           },
           {
             "result": {
-              "duration": 316818200,
+              "duration": 485723200,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999400,
+                  "duration": 1999600,
                   "status": "passed"
                 },
                 "match": {
@@ -579,7 +250,760 @@
               },
               {
                 "result": {
+                  "duration": 1998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": ":User can click products",
+            "match": {
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_click_products()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1503140900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
                   "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": ":User can click vision plan",
+            "match": {
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_click_vision_plan()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3300460700,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 8,
+            "name": ":User can enter zipCode \"25641\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25641\"",
+                  "offset": 24
+                }
+              ],
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_enter_zip_code(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2347840300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 9,
+            "name": ":User can click search",
+            "match": {
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_click_search()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1005100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 995400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 87094500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 996200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1088900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": ":User can validate massage",
+            "match": {
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_validate_massage()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 8221705200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": ":User in United Health Care HomePage",
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.user_in_united_health_care_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-08T00:21:10.804Z",
+        "line": 12,
+        "name": "search a product",
+        "description": "",
+        "id": "search-a-product-in-united-health-care;search-a-product",
+        "after": [
+          {
+            "result": {
+              "duration": 1025784500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchProductStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.RegistrationStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.InsurancePlanStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FindPharmacyStepDefinition.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 443746900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 13,
+            "name": ":User can search \"TX\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TX\"",
+                  "offset": 17
+                }
+              ],
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_search(java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2605510200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": ":User can click health insurance plans texas",
+            "match": {
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_click_health_insurance_plans_texas()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 1996900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1001100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6228437300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999300,
                   "status": "passed"
                 },
                 "match": {
@@ -596,15 +1020,14 @@
                 }
               }
             ],
-            "line": 6,
-            "name": ":User can click pharmacy Button",
+            "line": 15,
+            "name": ":User can click Short term health insurance plan",
             "match": {
-              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_pharmacy_button()"
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_click_short_term_health_insurance_plan()"
             },
             "after": [
               {
                 "result": {
-                  "duration": 999600,
                   "status": "passed"
                 },
                 "match": {
@@ -621,7 +1044,15 @@
               },
               {
                 "result": {
-                  "duration": 999900,
+                  "duration": 1019100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
                   "status": "passed"
                 },
                 "match": {
@@ -633,13 +1064,13 @@
           },
           {
             "result": {
-              "duration": 4200592200,
+              "duration": 5076074600,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
-                  "duration": 999300,
+                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -648,7 +1079,16 @@
               },
               {
                 "result": {
-                  "duration": 999700,
+                  "duration": 989800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 993900,
                   "status": "passed"
                 },
                 "match": {
@@ -657,7 +1097,6 @@
               },
               {
                 "result": {
-                  "duration": 999400,
                   "status": "passed"
                 },
                 "match": {
@@ -665,20 +1104,10 @@
                 }
               }
             ],
-            "line": 7,
-            "name": ":User can enter pharmacy Name \"cvs\" and zip \"11373\"",
+            "line": 16,
+            "name": ":User can validate massage texas",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"cvs\"",
-                  "offset": 30
-                },
-                {
-                  "val": "\"11373\"",
-                  "offset": 44
-                }
-              ],
-              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_enter_pharmacy_name_and_zip(java.lang.String,java.lang.String)"
+              "location": "stepDefinitions.SearchProductStepDefinition.user_can_validate_massage_texas()"
             },
             "after": [
               {
@@ -691,11 +1120,18 @@
               },
               {
                 "result": {
-                  "duration": 998900,
                   "status": "passed"
                 },
                 "match": {
                   "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.InsurancePlanStepDefinition.tearDown(io.cucumber.java.Scenario)"
                 }
               },
               {
@@ -708,81 +1144,15 @@
               }
             ],
             "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 273842800,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "duration": 1001700,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "duration": 997100,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 8,
-            "name": ":User can click search Button",
-            "match": {
-              "location": "stepDefinitions.FindPharmacyStepDefinition.user_can_click_search_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchProductStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.RegistrationStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.FindPharmacyStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "find pharmacy using United Health care webSide",
+    "name": "search a product in united health care",
     "description": "",
-    "id": "find-pharmacy-using-united-health-care-webside",
+    "id": "search-a-product-in-united-health-care",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/FindPharmacy.feature",
+    "uri": "file:src/test/java/features/SearchProduct.feature",
     "tags": []
   }
 ]

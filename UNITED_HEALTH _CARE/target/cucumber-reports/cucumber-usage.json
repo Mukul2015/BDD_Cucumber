@@ -5,114 +5,192 @@
       {
         "name": ":User in United Health Care HomePage",
         "aggregatedDurations": {
-          "median": 10.12601745,
-          "average": 10.12601745
+          "median": 8.2271302,
+          "average": 8.2271302
         },
         "durations": [
           {
-            "duration": 11.2980821,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:4"
+            "duration": 8.2325552,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:3"
           },
           {
-            "duration": 8.9539528,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:4"
+            "duration": 8.2217052,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:3"
           }
         ]
       }
     ]
   },
   {
-    "source": ":User can click find doctor Button",
+    "source": ":User can search {string}",
     "steps": [
       {
-        "name": ":User can click find doctor Button",
+        "name": ":User can search \"NYC\"",
         "aggregatedDurations": {
-          "median": 2.09683425,
-          "average": 2.09683425
+          "median": 4.0927544,
+          "average": 4.0927544
         },
         "durations": [
           {
-            "duration": 2.4565919,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:5"
-          },
-          {
-            "duration": 1.7370766,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:5"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": ":User can click pharmacy Button",
-    "steps": [
-      {
-        "name": ":User can click pharmacy Button",
-        "aggregatedDurations": {
-          "median": 0.40376815,
-          "average": 0.40376815
-        },
-        "durations": [
-          {
-            "duration": 0.4907181,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:6"
-          },
-          {
-            "duration": 0.3168182,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:6"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": ":User can enter pharmacy Name {string} and zip {string}",
-    "steps": [
-      {
-        "name": ":User can enter pharmacy Name \"Queens drug\" and zip \"11373\"",
-        "aggregatedDurations": {
-          "median": 7.823831,
-          "average": 7.823831
-        },
-        "durations": [
-          {
-            "duration": 7.823831,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:7"
+            "duration": 4.0927544,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:5"
           }
         ]
       },
       {
-        "name": ":User can enter pharmacy Name \"cvs\" and zip \"11373\"",
+        "name": ":User can search \"TX\"",
         "aggregatedDurations": {
-          "median": 4.2005922,
-          "average": 4.2005922
+          "median": 0.4437469,
+          "average": 0.4437469
         },
         "durations": [
           {
-            "duration": 4.2005922,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:7"
+            "duration": 0.4437469,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:13"
           }
         ]
       }
     ]
   },
   {
-    "source": ":User can click search Button",
+    "source": ":User can click products",
     "steps": [
       {
-        "name": ":User can click search Button",
+        "name": ":User can click products",
         "aggregatedDurations": {
-          "median": 0.2553904,
-          "average": 0.2553904
+          "median": 0.4857232,
+          "average": 0.4857232
         },
         "durations": [
           {
-            "duration": 0.236938,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:8"
-          },
+            "duration": 0.4857232,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can click vision plan",
+    "steps": [
+      {
+        "name": ":User can click vision plan",
+        "aggregatedDurations": {
+          "median": 1.5031409,
+          "average": 1.5031409
+        },
+        "durations": [
           {
-            "duration": 0.2738428,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/FindPharmacy.feature:8"
+            "duration": 1.5031409,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can enter zipCode {string}",
+    "steps": [
+      {
+        "name": ":User can enter zipCode \"25641\"",
+        "aggregatedDurations": {
+          "median": 3.3004607,
+          "average": 3.3004607
+        },
+        "durations": [
+          {
+            "duration": 3.3004607,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can click search",
+    "steps": [
+      {
+        "name": ":User can click search",
+        "aggregatedDurations": {
+          "median": 2.3478403,
+          "average": 2.3478403
+        },
+        "durations": [
+          {
+            "duration": 2.3478403,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can validate massage",
+    "steps": [
+      {
+        "name": ":User can validate massage",
+        "aggregatedDurations": {
+          "median": 0.0870945,
+          "average": 0.0870945
+        },
+        "durations": [
+          {
+            "duration": 0.0870945,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can click health insurance plans texas",
+    "steps": [
+      {
+        "name": ":User can click health insurance plans texas",
+        "aggregatedDurations": {
+          "median": 2.6055102,
+          "average": 2.6055102
+        },
+        "durations": [
+          {
+            "duration": 2.6055102,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can click Short term health insurance plan",
+    "steps": [
+      {
+        "name": ":User can click Short term health insurance plan",
+        "aggregatedDurations": {
+          "median": 6.2284373,
+          "average": 6.2284373
+        },
+        "durations": [
+          {
+            "duration": 6.2284373,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": ":User can validate massage texas",
+    "steps": [
+      {
+        "name": ":User can validate massage texas",
+        "aggregatedDurations": {
+          "median": 5.0760746,
+          "average": 5.0760746
+        },
+        "durations": [
+          {
+            "duration": 5.0760746,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/UNITED_HEALTH%20_CARE/src/test/java/features/SearchProduct.feature:16"
           }
         ]
       }

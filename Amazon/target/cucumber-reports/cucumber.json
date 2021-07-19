@@ -1,0 +1,1537 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10440790400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 62495600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 15624700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 15623900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "user in amazon homepage",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2509992300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User can select product Using dropDown",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T16:03:53.810Z",
+        "line": 5,
+        "name": "User can Select product using drop Down",
+        "description": "",
+        "id": "user-can-select-product-using-drop-down;user-can-select-product-using-drop-down",
+        "after": [
+          {
+            "result": {
+              "duration": 1552285000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SignInPageStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchBoxStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.RegistrationPageStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageButtonStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AddressBarStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AccountListStepDefinition.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4787255000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 2999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 6,
+            "name": "User can search samsungTv \"samsungTv\" Using dropDown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsungTv\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_search_samsung_tv_using_drop_down(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 127421200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1997800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 7,
+            "name": "User can verify samsungTv product Mgs",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_verify_samsung_tv_product_mgs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 9991112200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 15622600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 15625200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "user in amazon homepage",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2508562800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User can select product Using dropDown",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T16:04:13.576Z",
+        "line": 9,
+        "name": "User can Select product using drop Down",
+        "description": "",
+        "id": "user-can-select-product-using-drop-down;user-can-select-product-using-drop-down",
+        "after": [
+          {
+            "result": {
+              "duration": 1898099900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SignInPageStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchBoxStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.RegistrationPageStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageButtonStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AddressBarStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AccountListStepDefinition.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2774409800,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1002700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 10,
+            "name": "User can search samsung phone \"samsung phone\" Using dropDown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsung phone\"",
+                  "offset": 30
+                }
+              ],
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_search_samsung_phone_samsung_phone_using_drop_down(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 851512000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 11,
+            "name": "User can verify samsung phone product Mgs",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_verify_samsung_phone_product_mgs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10620840200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "user in amazon homepage",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1924895000,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User can select product Using dropDown",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T16:04:31.702Z",
+        "line": 13,
+        "name": "User can Select product using drop Down",
+        "description": "",
+        "id": "user-can-select-product-using-drop-down;user-can-select-product-using-drop-down",
+        "after": [
+          {
+            "result": {
+              "duration": 1893135300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SignInPageStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchBoxStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.RegistrationPageStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageButtonStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AddressBarStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AccountListStepDefinition.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3493997400,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 14,
+            "name": "User can search samsung phone case \"samsung phone case\" Using dropDown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"samsung phone case\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_search_samsung_phone_case_using_drop_down(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 507707500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 997600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 15,
+            "name": "User can verify samsungPhoneCase product Mgs",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_verify_samsung_phone_case_product_mgs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 2,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10274920500,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 3,
+            "name": "user in amazon homepage",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3374494200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1000800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999200,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": "User can select product Using dropDown",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-19T16:04:50.210Z",
+        "line": 17,
+        "name": "User can Select product using drop Down",
+        "description": "",
+        "id": "user-can-select-product-using-drop-down;user-can-select-product-using-drop-down",
+        "after": [
+          {
+            "result": {
+              "duration": 1092322000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SignInPageStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.SearchBoxStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.RegistrationPageStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.HomePageButtonStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AddressBarStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.AccountListStepDefinition.cleanUp()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5225616200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1001000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 997500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 18,
+            "name": "User can search sonyTv \"sony Tv\" Using dropDown",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"sony Tv\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_search_sony_tv_using_drop_down(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 212877300,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1996400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AccountListStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.AddressBarStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.HomePageButtonStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.ProductDropDownStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.RegistrationPageStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1998500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchBoxStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignInPageStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 19,
+            "name": "User can verify sonyTv product Mgs",
+            "match": {
+              "location": "stepDefinitions.ProductDropDownStepDefinition.user_can_verify_sony_tv_product_mgs()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "User can Select product using drop Down",
+    "description": "",
+    "id": "user-can-select-product-using-drop-down",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/ProductDropDown.feature",
+    "tags": []
+  }
+]

@@ -50,6 +50,14 @@ public class FeedBackStepDefinition extends WebAPI {
     public void user_can_select_feedback_type() {
     feedBack.clickSelectFeedBack();
     }
+    @Then(":User can select other feedback type")
+    public void user_can_select_other_feedback_type() throws InterruptedException {
+    feedBack.clickSelectOtherFeedBack();
+    }
+    @Then(":User can select checkInTrip feedback type")
+    public void user_can_select_checkInTrip_feedback_type() throws InterruptedException {
+    feedBack.clickCheckInTrip();
+    }
     @Then(":User can provide feedback massage")
     public void user_can_provide_feedback_massage() {
     feedBack.clickFeedBackMassage();

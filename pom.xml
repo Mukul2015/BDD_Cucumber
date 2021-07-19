@@ -11,9 +11,9 @@
     <modules>
         <module>Generic</module>
         <module>UNITED_HEALTH _CARE</module>
-        <module>CHASE_BANK</module>
         <module>HILTON</module>
         <module>DELTA</module>
+        <module>Amazon</module>
     </modules>
 
     <properties>

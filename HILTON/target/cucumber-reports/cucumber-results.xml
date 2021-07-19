@@ -1,18 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="87.636">
-<testcase classname="User can select location" name="select hilton hotel" time="47.549">
-<system-out><![CDATA[Given user in hotel HomePage................................................passed
-Then user can click Location button.........................................passed
-Then user can select Asia zone..............................................passed
-Then user can select Indian Hotel...........................................passed
-Then user can select first one from the Indian Hotel list...................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="145.49">
+<testcase classname="user can search a room in hilton hotel" name="Search a hotelRoom" time="72.271">
+<system-out><![CDATA[Given :User in Hilton hotel homePage........................................passed
+Then :User can click on searchBox...........................................passed
+Then :User can enter cityName "NYC" and select..............................passed
+Then :User can select city..................................................passed
+Then :User can select entry and exits date..................................passed
+Then :User can select guest Number..........................................passed
+Then :User can select special Rate..........................................passed
+Then :User can click find Hotel.............................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User can select location" name="select hilton hotel 2" time="39.402">
-<system-out><![CDATA[Given user in hotel HomePage................................................passed
-Then user can click Location button.........................................passed
-Then user can select North America zone.....................................passed
-Then user can select Alaska Hotel...........................................passed
-Then user can select first one from the Alaska Hotel list...................passed
+<testcase classname="user can search a room in hilton hotel" name="Search a hotelRoom 2" time="72.289">
+<system-out><![CDATA[Given :User in Hilton hotel homePage........................................passed
+Then :User can click on searchBox...........................................passed
+Then :User can enter cityName "TX" and select...............................passed
+Then :User can select  Texas city...........................................passed
+Then :User can select entry and exits date..................................passed
+Then :User can select guest Number..........................................passed
+Then :User can select special Rate..........................................passed
+Then :User can click find Hotel.............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

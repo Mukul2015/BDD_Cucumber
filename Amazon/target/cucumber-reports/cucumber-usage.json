@@ -1,0 +1,206 @@
+[
+  {
+    "source": "user in amazon homepage",
+    "steps": [
+      {
+        "name": "user in amazon homepage",
+        "aggregatedDurations": {
+          "median": 10.35785545,
+          "average": 10.331915825
+        },
+        "durations": [
+          {
+            "duration": 10.4407904,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:3"
+          },
+          {
+            "duration": 9.9911122,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:3"
+          },
+          {
+            "duration": 10.6208402,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:3"
+          },
+          {
+            "duration": 10.2749205,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:3"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can select product Using dropDown",
+    "steps": [
+      {
+        "name": "User can select product Using dropDown",
+        "aggregatedDurations": {
+          "median": 2.50927755,
+          "average": 2.579486075
+        },
+        "durations": [
+          {
+            "duration": 2.5099923,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:4"
+          },
+          {
+            "duration": 2.5085628,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:4"
+          },
+          {
+            "duration": 1.924895,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:4"
+          },
+          {
+            "duration": 3.3744942,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can search samsungTv {string} Using dropDown",
+    "steps": [
+      {
+        "name": "User can search samsungTv \"samsungTv\" Using dropDown",
+        "aggregatedDurations": {
+          "median": 4.787255,
+          "average": 4.787255
+        },
+        "durations": [
+          {
+            "duration": 4.787255,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can verify samsungTv product Mgs",
+    "steps": [
+      {
+        "name": "User can verify samsungTv product Mgs",
+        "aggregatedDurations": {
+          "median": 0.1274212,
+          "average": 0.1274212
+        },
+        "durations": [
+          {
+            "duration": 0.1274212,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can search samsung phone {string} Using dropDown",
+    "steps": [
+      {
+        "name": "User can search samsung phone \"samsung phone\" Using dropDown",
+        "aggregatedDurations": {
+          "median": 2.7744098,
+          "average": 2.7744098
+        },
+        "durations": [
+          {
+            "duration": 2.7744098,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can verify samsung phone product Mgs",
+    "steps": [
+      {
+        "name": "User can verify samsung phone product Mgs",
+        "aggregatedDurations": {
+          "median": 0.851512,
+          "average": 0.851512
+        },
+        "durations": [
+          {
+            "duration": 0.851512,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can search samsung phone case {string} Using dropDown",
+    "steps": [
+      {
+        "name": "User can search samsung phone case \"samsung phone case\" Using dropDown",
+        "aggregatedDurations": {
+          "median": 3.4939974,
+          "average": 3.4939974
+        },
+        "durations": [
+          {
+            "duration": 3.4939974,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can verify samsungPhoneCase product Mgs",
+    "steps": [
+      {
+        "name": "User can verify samsungPhoneCase product Mgs",
+        "aggregatedDurations": {
+          "median": 0.5077075,
+          "average": 0.5077075
+        },
+        "durations": [
+          {
+            "duration": 0.5077075,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can search sonyTv {string} Using dropDown",
+    "steps": [
+      {
+        "name": "User can search sonyTv \"sony Tv\" Using dropDown",
+        "aggregatedDurations": {
+          "median": 5.2256162,
+          "average": 5.2256162
+        },
+        "durations": [
+          {
+            "duration": 5.2256162,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can verify sonyTv product Mgs",
+    "steps": [
+      {
+        "name": "User can verify sonyTv product Mgs",
+        "aggregatedDurations": {
+          "median": 0.2128773,
+          "average": 0.2128773
+        },
+        "durations": [
+          {
+            "duration": 0.2128773,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:19"
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -44,6 +44,10 @@ public class SearchStepDefinition extends WebAPI {
     public void user_can_select_city() throws InterruptedException {
     hotel.selectSearchHotel();
     }
+   @Then(":User can select  Texas city")
+   public void user_can_select_texas_city() {
+      hotel.clickSelectTexasCity();
+   }
     @Then(":User can select entry and exits date")
     public void user_can_select_entry_and_exits_date() throws InterruptedException {
     hotel.reservationDate();

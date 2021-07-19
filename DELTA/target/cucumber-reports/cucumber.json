@@ -3,14 +3,197 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-24T02:04:14.774Z",
         "line": 3,
-        "name": "User can SignUp",
+        "name": "",
         "description": "",
-        "id": "signup-in-delta-airlines;user-can-signup",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 16180106200,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 62496300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 15623100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 15624100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 4,
+            "name": ":user in Delta HomePage",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_in_delta_home_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 2998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1449416900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1998400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 2998600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 5,
+            "name": ":user can click search button",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_click_search_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999700,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-07-09T03:27:10.991Z",
+        "line": 19,
+        "name": "User Can Search Delta Airline product",
+        "description": "",
+        "id": "search-delta-airline-product;user-can-search-delta-airline-product",
         "after": [
           {
             "result": {
+              "duration": 1004578600,
               "status": "passed"
             },
             "match": {
@@ -24,6 +207,22 @@
             "match": {
               "location": "stepDefinitions.SearchStepDefinition.cleanUp()"
             }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.FeedBackStepDefinition.cleanUp()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.BookFlightStepDefinition.cleanUp()"
+            }
           }
         ],
         "type": "scenario",
@@ -31,11 +230,13 @@
         "steps": [
           {
             "result": {
+              "duration": 288832400,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1998200,
                   "status": "passed"
                 },
                 "match": {
@@ -44,6 +245,16 @@
               },
               {
                 "result": {
+                  "duration": 1002100,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999100,
                   "status": "passed"
                 },
                 "match": {
@@ -52,6 +263,7 @@
               },
               {
                 "result": {
+                  "duration": 1999400,
                   "status": "passed"
                 },
                 "match": {
@@ -59,10 +271,16 @@
                 }
               }
             ],
-            "line": 4,
-            "name": "User on Delta Airlines HomePage",
+            "line": 20,
+            "name": ":User Can enter \"AUS\" in searchBox",
             "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_on_delta_airlines_home_page()"
+              "arguments": [
+                {
+                  "val": "\"AUS\"",
+                  "offset": 16
+                }
+              ],
+              "location": "stepDefinitions.SearchStepDefinition.user_can_enter_in_search_box(java.lang.String)"
             },
             "after": [
               {
@@ -75,6 +293,7 @@
               },
               {
                 "result": {
+                  "duration": 999200,
                   "status": "passed"
                 },
                 "match": {
@@ -83,69 +302,16 @@
               },
               {
                 "result": {
+                  "duration": 1000700,
                   "status": "passed"
                 },
                 "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
+                  "location": "stepDefinitions.FeedBackStepDefinition.tearDown(io.cucumber.java.Scenario)"
                 }
               },
               {
                 "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 5,
-            "name": "User can click SIGN UP Button",
-            "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_can_click_sign_up_button()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
+                  "duration": 998100,
                   "status": "passed"
                 },
                 "match": {
@@ -157,11 +323,13 @@
           },
           {
             "result": {
+              "duration": 5561551000,
               "status": "passed"
             },
             "before": [
               {
                 "result": {
+                  "duration": 1998600,
                   "status": "passed"
                 },
                 "match": {
@@ -170,6 +338,16 @@
               },
               {
                 "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 998900,
                   "status": "passed"
                 },
                 "match": {
@@ -178,496 +356,7 @@
               },
               {
                 "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 6,
-            "name": "User can select their Prefix",
-            "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_can_select_their_prefix()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 7,
-            "name": "User can fillUp firstName and lastName",
-            "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_can_fill_up_first_name_and_last_name(io.cucumber.datatable.DataTable)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "firstName",
-                  "lastName"
-                ]
-              },
-              {
-                "cells": [
-                  "Monirul",
-                  "Islam"
-                ]
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 10,
-            "name": "User can select their Gender",
-            "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_can_select_their_gender()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 12,
-            "name": "User can select their Country",
-            "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_can_select_their_country()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 14,
-            "name": "User can fillUp address and city and zipCode",
-            "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_can_fill_up_address_and_city_and_zip_code(io.cucumber.datatable.DataTable)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "address",
-                  "city",
-                  "zipCode"
-                ]
-              },
-              {
-                "cells": [
-                  "4207 Elbertson St",
-                  "Elmhurst",
-                  "11373"
-                ]
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 15626900,
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 17,
-            "name": "User can select their CountryCode",
-            "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_can_select_their_country_code()"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
-                }
-              }
-            ],
-            "line": 18,
-            "name": "User can fillUp AreaCode and PhoneNumber and Email and ConfirmEmail",
-            "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_can_fill_up_area_code_and_phone_number_and_email_and_confirm_email(io.cucumber.datatable.DataTable)"
-            },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
-                }
-              }
-            ],
-            "rows": [
-              {
-                "cells": [
-                  "AreaCode",
-                  "PhoneNumber",
-                  "Email",
-                  "ConfirmEmail"
-                ]
-              },
-              {
-                "cells": [
-                  "11373",
-                  "+19176094847",
-                  "mukul_wana@yahoo.com",
-                  "mukul_wana@yahoo.com"
-                ]
-              }
-            ],
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
-                }
-              },
-              {
-                "result": {
+                  "duration": 1997900,
                   "status": "passed"
                 },
                 "match": {
@@ -676,9 +365,9 @@
               }
             ],
             "line": 21,
-            "name": "User can fillUp UserName and Password and ConfirmPassword",
+            "name": ":user can click searchField search button",
             "match": {
-              "location": "stepDefinitions.SignUpStepDefinition.user_can_fill_up_user_name_and_password_and_confirm_password(io.cucumber.datatable.DataTable)"
+              "location": "stepDefinitions.SearchStepDefinition.user_can_click_searchField_search_button()"
             },
             "after": [
               {
@@ -702,24 +391,187 @@
                   "status": "passed"
                 },
                 "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999400,
+                  "status": "passed"
+                },
+                "match": {
                   "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
                 }
               }
             ],
-            "rows": [
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4611195700,
+              "status": "passed"
+            },
+            "before": [
               {
-                "cells": [
-                  "UserName",
-                  "Password",
-                  "ConfirmPassword"
-                ]
+                "result": {
+                  "duration": 1997900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
+                }
               },
               {
-                "cells": [
-                  "mukul",
-                  "Urme2000",
-                  "Urme2000"
-                ]
+                "result": {
+                  "duration": 999600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1999400,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 22,
+            "name": ":user can click Cashless airport",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_click_Cashless_airport()"
+            },
+            "after": [
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "duration": 995600,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 125455900,
+              "status": "passed"
+            },
+            "before": [
+              {
+                "result": {
+                  "duration": 1998900,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BookFlightStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 999800,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.getInit()"
+                }
+              },
+              {
+                "result": {
+                  "duration": 1000300,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignUpStepDefinition.getInit()"
+                }
+              }
+            ],
+            "line": 23,
+            "name": ":user can validate Cashless",
+            "match": {
+              "location": "stepDefinitions.SearchStepDefinition.user_can_validate_Cashless()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 999500,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SignUpStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.SearchStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.FeedBackStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
+              },
+              {
+                "result": {
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "stepDefinitions.BookFlightStepDefinition.tearDown(io.cucumber.java.Scenario)"
+                }
               }
             ],
             "keyword": "And "
@@ -727,11 +579,11 @@
         ]
       }
     ],
-    "name": "SignUp in Delta Airlines",
+    "name": "Search Delta Airline product",
     "description": "",
-    "id": "signup-in-delta-airlines",
+    "id": "search-delta-airline-product",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/SignUp.feature",
+    "uri": "file:src/test/java/features/Search.feature",
     "tags": []
   }
 ]

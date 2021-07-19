@@ -14,10 +14,18 @@ public class SearchProduct extends WebAPI {
     public WebElement searchField;
     @FindBy(xpath = searchWebElement)
     public WebElement search;
+    @FindBy(xpath = searchJfkWebElement)
+    public WebElement searchJfk;
     @FindBy(xpath = flightPartnersWebElement)
     public WebElement flightPartners;
+    @FindBy(xpath = CashlessAirportsWebElement)
+    public WebElement CashlessAirports;
     @FindBy(xpath = friendsWebElement)
     public WebElement friends;
+    @FindBy(xpath = verifyNewYorkWebElement)
+    public WebElement verifyNewYork;
+    @FindBy(xpath = verifyCashlessWebElement)
+    public WebElement verifyCashless;
 
    public void clickSearchButton(){
        searchButton.click();
@@ -25,14 +33,29 @@ public class SearchProduct extends WebAPI {
    public void clickSearchField(String name){
        searchField.sendKeys(name);
    }
+
    public void clickSearch(){
        search.click();
+   }
+   public void clickJfkField(){
+       searchJfk.click();
    }
    public void clickFlightPartner(){
        flightPartners.click();
    }
+   public void ClickCashlessAirports(){
+       CashlessAirports.click();
+   }
    public void verifyFriends(String actual){
       String Expected =friends.getText();
+       Assert.assertEquals(Expected,actual);
+   }
+   public void validateNewYork(String actual){
+      String Expected =verifyNewYork.getText();
+       Assert.assertEquals(Expected,actual);
+   }
+   public void validateCashless(String actual){
+      String Expected =verifyCashless.getText();
        Assert.assertEquals(Expected,actual);
    }
 }

@@ -25,13 +25,7 @@ public class SignInPage extends WebAPI {
     public void clickSignIn() {
         signInButton.click();
     }
-    public void enterEmail(String email) {
-        signInEmail.sendKeys(email);
-        continueButton.click();
-    }
-    public void enterPassWord(String password) {
-        signInPassword.sendKeys(password);
-    }
+
     public void enterSignIn() {
         signInSubmit.click();
     }

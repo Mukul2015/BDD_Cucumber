@@ -1,30 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="77.227">
-<testcase classname="User can Select product using drop Down" name="User can Select product using drop Down" time="19.703">
-<system-out><![CDATA[Given user in amazon homepage...............................................passed
-Then User can select product Using dropDown.................................passed
-Then User can search samsungTv "samsungTv" Using dropDown...................passed
-Then User can verify samsungTv product Mgs..................................passed
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="10" time="163.034">
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button" time="13.117">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User Can check Amazon Logo in Homepage is present or not...............passed
 ]]></system-out>
 </testcase>
-<testcase classname="User can Select product using drop Down" name="User can Select product using drop Down 2" time="18.079">
-<system-out><![CDATA[Given user in amazon homepage...............................................passed
-Then User can select product Using dropDown.................................passed
-Then User can search samsung phone "samsung phone" Using dropDown...........passed
-Then User can verify samsung phone product Mgs..............................passed
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button 2" time="16.314">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User can click Best Seller Button......................................passed
+Then User can validate Amazon Best Sellers Mgs..............................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User can Select product using drop Down" name="User can Select product using drop Down 3" time="18.46">
-<system-out><![CDATA[Given user in amazon homepage...............................................passed
-Then User can select product Using dropDown.................................passed
-Then User can search samsung phone case "samsung phone case" Using dropDown.passed
-Then User can verify samsungPhoneCase product Mgs...........................passed
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button 3" time="17.052">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User can click today Dells Button......................................passed
+Then User can validate pharmacy Mgs.........................................passed
 ]]></system-out>
 </testcase>
-<testcase classname="User can Select product using drop Down" name="User can Select product using drop Down 4" time="20.203">
-<system-out><![CDATA[Given user in amazon homepage...............................................passed
-Then User can select product Using dropDown.................................passed
-Then User can search sonyTv "sony Tv" Using dropDown........................passed
-Then User can verify sonyTv product Mgs.....................................passed
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button 4" time="15.139">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User can click customer Service Button.................................passed
+Then User can validate customer Service Mgs.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button 5" time="19.621">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User can click new Release Button......................................passed
+Then User can validate new Release Mgs......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button 6" time="13.426">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User can click books Button............................................passed
+Then User can validate books Mgs............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button 7" time="20.005">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User can click fashion Button..........................................passed
+Then User can validate fashion Mgs..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button 8" time="16.906">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User can click kindleBook Button.......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button 9" time="15.819">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User can click gift Button.............................................passed
+Then User can validate gift Mgs.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User can click all Home page Button" name="User can click all Home page Button 10" time="14.771">
+<system-out><![CDATA[Given User in Amazon homePage...............................................passed
+Then User can click toys Button.............................................passed
+Then User can validate toys Mgs.............................................passed
 ]]></system-out>
 </testcase>
 </testsuite>

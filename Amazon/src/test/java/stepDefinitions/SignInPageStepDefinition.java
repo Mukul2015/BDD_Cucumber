@@ -2,6 +2,7 @@ package stepDefinitions;
 
 import accountList.AccountList;
 import common.WebAPI;
+import io.cucumber.datatable.DataTable;
 import io.cucumber.java.After;
 import io.cucumber.java.BeforeStep;
 import io.cucumber.java.Scenario;
@@ -13,6 +14,8 @@ import org.openqa.selenium.support.PageFactory;
 import signinpage.SignInPage;
 
 import java.net.MalformedURLException;
+import java.util.List;
+import java.util.Map;
 
 public class SignInPageStepDefinition extends WebAPI {
     static SignInPage signIn;
@@ -39,13 +42,14 @@ public class SignInPageStepDefinition extends WebAPI {
     public void user_can_click_sign_in_button() {
      signIn.clickSignIn();
     }
-    @Then("User can enter {string} and continuePage")
-    public void user_can_enter_and_continue_page(String string) {
-     signIn.enterEmail(string);
-    }
-    @Then("User can enter {string}")
-    public void user_can_enter(String string) {
-       signIn.enterPassWord(string);
+    @Then("User can enter Email and continuePage and enter password")
+    public void user_can_enter_email_and_continue_page_and_enter_password(DataTable dataTable) {
+        List<Map<String,String>> data = dataTable.asMaps(String.class, String.class);
+        for(Map<String,String> info :data ){
+            signIn.signInEmail.sendKeys(info.get("Email"));
+            signIn.continueButton.click();
+            signIn.signInPassword.sendKeys(info.get("password"));
+        }
     }
     @Then("User can enter SignIn")
     public void user_can_enter_sign_in() {

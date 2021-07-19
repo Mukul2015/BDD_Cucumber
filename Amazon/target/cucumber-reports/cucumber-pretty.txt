@@ -1,24 +1,58 @@
 
-Scenario: User can Select product using drop Down           [90m# src/test/java/features/ProductDropDown.feature:5[0m
-  [32mGiven [0m[32muser in amazon homepage[0m                             [90m# stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()[0m
-  [32mThen [0m[32mUser can select product Using dropDown[0m               [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()[0m
-  [32mThen [0m[32mUser can search samsungTv [0m[32m[1m"samsungTv"[0m[32m Using dropDown[0m [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_search_samsung_tv_using_drop_down(java.lang.String)[0m
-  [32mThen [0m[32mUser can verify samsungTv product Mgs[0m                [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_verify_samsung_tv_product_mgs()[0m
+@IntegrationTest
+Scenario: User can click all Home page Button                   [90m# src/test/java/features/HomePageButton.feature:5[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m                                 [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser Can check Amazon Logo in Homepage is present or not[0m [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_check_amazon_logo_in_homepage_is_present_or_not()[0m
 
-Scenario: User can Select product using drop Down                   [90m# src/test/java/features/ProductDropDown.feature:9[0m
-  [32mGiven [0m[32muser in amazon homepage[0m                                     [90m# stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()[0m
-  [32mThen [0m[32mUser can select product Using dropDown[0m                       [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()[0m
-  [32mThen [0m[32mUser can search samsung phone [0m[32m[1m"samsung phone"[0m[32m Using dropDown[0m [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_search_samsung_phone_samsung_phone_using_drop_down(java.lang.String)[0m
-  [32mThen [0m[32mUser can verify samsung phone product Mgs[0m                    [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_verify_samsung_phone_product_mgs()[0m
+@IntegrationTest
+Scenario: User can click all Home page Button    [90m# src/test/java/features/HomePageButton.feature:8[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m                  [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser can click Best Seller Button[0m         [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_click_best_seller_button()[0m
+  [32mThen [0m[32mUser can validate Amazon Best Sellers Mgs[0m [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_validate_amazon_best_sellers_mgs()[0m
 
-Scenario: User can Select product using drop Down                             [90m# src/test/java/features/ProductDropDown.feature:13[0m
-  [32mGiven [0m[32muser in amazon homepage[0m                                               [90m# stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()[0m
-  [32mThen [0m[32mUser can select product Using dropDown[0m                                 [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()[0m
-  [32mThen [0m[32mUser can search samsung phone case [0m[32m[1m"samsung phone case"[0m[32m Using dropDown[0m [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_search_samsung_phone_case_using_drop_down(java.lang.String)[0m
-  [32mThen [0m[32mUser can verify samsungPhoneCase product Mgs[0m                           [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_verify_samsung_phone_case_product_mgs()[0m
+@IntegrationTest
+Scenario: User can click all Home page Button [90m# src/test/java/features/HomePageButton.feature:12[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m               [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser can click today Dells Button[0m      [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_click_today_dells_button()[0m
+  [32mThen [0m[32mUser can validate pharmacy Mgs[0m         [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_validate_pharmacy_mgs()[0m
 
-Scenario: User can Select product using drop Down      [90m# src/test/java/features/ProductDropDown.feature:17[0m
-  [32mGiven [0m[32muser in amazon homepage[0m                        [90m# stepDefinitions.ProductDropDownStepDefinition.user_in_amazon_homepage()[0m
-  [32mThen [0m[32mUser can select product Using dropDown[0m          [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_select_product_using_drop_down()[0m
-  [32mThen [0m[32mUser can search sonyTv [0m[32m[1m"sony Tv"[0m[32m Using dropDown[0m [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_search_sony_tv_using_drop_down(java.lang.String)[0m
-  [32mThen [0m[32mUser can verify sonyTv product Mgs[0m              [90m# stepDefinitions.ProductDropDownStepDefinition.user_can_verify_sony_tv_product_mgs()[0m
+@RegressionTest
+Scenario: User can click all Home page Button [90m# src/test/java/features/HomePageButton.feature:16[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m               [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser can click customer Service Button[0m [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_click_customer_service_button()[0m
+  [32mThen [0m[32mUser can validate customer Service Mgs[0m [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_validate_customer_service_mgs()[0m
+
+@IntegrationTest
+Scenario: User can click all Home page Button [90m# src/test/java/features/HomePageButton.feature:20[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m               [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser can click new Release Button[0m      [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_click_new_release_button()[0m
+  [32mThen [0m[32mUser can validate new Release Mgs[0m      [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_validate_new_release_mgs()[0m
+
+@RegressionTest
+Scenario: User can click all Home page Button [90m# src/test/java/features/HomePageButton.feature:24[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m               [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser can click books Button[0m            [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_click_books_button()[0m
+  [32mThen [0m[32mUser can validate books Mgs[0m            [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_validate_books_mgs()[0m
+
+@SmokeTest
+Scenario: User can click all Home page Button [90m# src/test/java/features/HomePageButton.feature:28[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m               [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser can click fashion Button[0m          [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_click_fashion_button()[0m
+  [32mThen [0m[32mUser can validate fashion Mgs[0m          [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_validate_fashion_mgs()[0m
+
+@RegressionTest
+Scenario: User can click all Home page Button [90m# src/test/java/features/HomePageButton.feature:32[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m               [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser can click kindleBook Button[0m       [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_click_kindle_book_button()[0m
+
+@SmokeTest
+Scenario: User can click all Home page Button [90m# src/test/java/features/HomePageButton.feature:35[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m               [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser can click gift Button[0m             [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_click_gift_button()[0m
+  [32mThen [0m[32mUser can validate gift Mgs[0m             [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_validate_gift_mgs()[0m
+
+@SmokeTest
+Scenario: User can click all Home page Button [90m# src/test/java/features/HomePageButton.feature:39[0m
+  [32mGiven [0m[32mUser in Amazon homePage[0m               [90m# stepDefinitions.HomePageButtonStepDefinition.user_in_amazon_home_page()[0m
+  [32mThen [0m[32mUser can click toys Button[0m             [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_click_toys_button()[0m
+  [32mThen [0m[32mUser can validate toys Mgs[0m             [90m# stepDefinitions.HomePageButtonStepDefinition.user_can_validate_toys_mgs()[0m

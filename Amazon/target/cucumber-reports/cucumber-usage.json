@@ -1,203 +1,377 @@
 [
   {
-    "source": "user in amazon homepage",
+    "source": "User in Amazon homePage",
     "steps": [
       {
-        "name": "user in amazon homepage",
+        "name": "User in Amazon homePage",
         "aggregatedDurations": {
-          "median": 10.35785545,
-          "average": 10.331915825
+          "median": 10.93670045,
+          "average": 10.68959406
         },
         "durations": [
           {
-            "duration": 10.4407904,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:3"
+            "duration": 11.2346954,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
           },
           {
-            "duration": 9.9911122,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:3"
+            "duration": 9.8746788,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
           },
           {
-            "duration": 10.6208402,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:3"
+            "duration": 10.9698537,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
           },
           {
-            "duration": 10.2749205,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:3"
-          }
-        ]
-      }
-    ]
-  },
-  {
-    "source": "User can select product Using dropDown",
-    "steps": [
-      {
-        "name": "User can select product Using dropDown",
-        "aggregatedDurations": {
-          "median": 2.50927755,
-          "average": 2.579486075
-        },
-        "durations": [
-          {
-            "duration": 2.5099923,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:4"
+            "duration": 11.0983727,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
           },
           {
-            "duration": 2.5085628,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:4"
+            "duration": 14.6819125,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
           },
           {
-            "duration": 1.924895,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:4"
+            "duration": 7.4844706,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
           },
           {
-            "duration": 3.3744942,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:4"
+            "duration": 11.9827039,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
+          },
+          {
+            "duration": 9.0809675,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
+          },
+          {
+            "duration": 10.9035472,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
+          },
+          {
+            "duration": 9.5847383,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:3"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can search samsungTv {string} Using dropDown",
+    "source": "User Can check Amazon Logo in Homepage is present or not",
     "steps": [
       {
-        "name": "User can search samsungTv \"samsungTv\" Using dropDown",
+        "name": "User Can check Amazon Logo in Homepage is present or not",
         "aggregatedDurations": {
-          "median": 4.787255,
-          "average": 4.787255
+          "median": 0.2188736,
+          "average": 0.2188736
         },
         "durations": [
           {
-            "duration": 4.787255,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:6"
+            "duration": 0.2188736,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:6"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can verify samsungTv product Mgs",
+    "source": "User can click Best Seller Button",
     "steps": [
       {
-        "name": "User can verify samsungTv product Mgs",
+        "name": "User can click Best Seller Button",
         "aggregatedDurations": {
-          "median": 0.1274212,
-          "average": 0.1274212
+          "median": 4.8921397,
+          "average": 4.8921397
         },
         "durations": [
           {
-            "duration": 0.1274212,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:7"
+            "duration": 4.8921397,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:9"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can search samsung phone {string} Using dropDown",
+    "source": "User can validate Amazon Best Sellers Mgs",
     "steps": [
       {
-        "name": "User can search samsung phone \"samsung phone\" Using dropDown",
+        "name": "User can validate Amazon Best Sellers Mgs",
         "aggregatedDurations": {
-          "median": 2.7744098,
-          "average": 2.7744098
+          "median": 0.3987703,
+          "average": 0.3987703
         },
         "durations": [
           {
-            "duration": 2.7744098,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:10"
+            "duration": 0.3987703,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:10"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can verify samsung phone product Mgs",
+    "source": "User can click today Dells Button",
     "steps": [
       {
-        "name": "User can verify samsung phone product Mgs",
+        "name": "User can click today Dells Button",
         "aggregatedDurations": {
-          "median": 0.851512,
-          "average": 0.851512
+          "median": 4.6195325,
+          "average": 4.6195325
         },
         "durations": [
           {
-            "duration": 0.851512,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:11"
+            "duration": 4.6195325,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:13"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can search samsung phone case {string} Using dropDown",
+    "source": "User can validate pharmacy Mgs",
     "steps": [
       {
-        "name": "User can search samsung phone case \"samsung phone case\" Using dropDown",
+        "name": "User can validate pharmacy Mgs",
         "aggregatedDurations": {
-          "median": 3.4939974,
-          "average": 3.4939974
+          "median": 0.0966277,
+          "average": 0.0966277
         },
         "durations": [
           {
-            "duration": 3.4939974,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:14"
+            "duration": 0.0966277,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:14"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can verify samsungPhoneCase product Mgs",
+    "source": "User can click customer Service Button",
     "steps": [
       {
-        "name": "User can verify samsungPhoneCase product Mgs",
+        "name": "User can click customer Service Button",
         "aggregatedDurations": {
-          "median": 0.5077075,
-          "average": 0.5077075
+          "median": 2.9103317,
+          "average": 2.9103317
         },
         "durations": [
           {
-            "duration": 0.5077075,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:15"
+            "duration": 2.9103317,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:17"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can search sonyTv {string} Using dropDown",
+    "source": "User can validate customer Service Mgs",
     "steps": [
       {
-        "name": "User can search sonyTv \"sony Tv\" Using dropDown",
+        "name": "User can validate customer Service Mgs",
         "aggregatedDurations": {
-          "median": 5.2256162,
-          "average": 5.2256162
+          "median": 0.0899479,
+          "average": 0.0899479
         },
         "durations": [
           {
-            "duration": 5.2256162,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:18"
+            "duration": 0.0899479,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:18"
           }
         ]
       }
     ]
   },
   {
-    "source": "User can verify sonyTv product Mgs",
+    "source": "User can click new Release Button",
     "steps": [
       {
-        "name": "User can verify sonyTv product Mgs",
+        "name": "User can click new Release Button",
         "aggregatedDurations": {
-          "median": 0.2128773,
-          "average": 0.2128773
+          "median": 3.6658987,
+          "average": 3.6658987
         },
         "durations": [
           {
-            "duration": 0.2128773,
-            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/ProductDropDown.feature:19"
+            "duration": 3.6658987,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can validate new Release Mgs",
+    "steps": [
+      {
+        "name": "User can validate new Release Mgs",
+        "aggregatedDurations": {
+          "median": 0.321814,
+          "average": 0.321814
+        },
+        "durations": [
+          {
+            "duration": 0.321814,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can click books Button",
+    "steps": [
+      {
+        "name": "User can click books Button",
+        "aggregatedDurations": {
+          "median": 4.0469733,
+          "average": 4.0469733
+        },
+        "durations": [
+          {
+            "duration": 4.0469733,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:25"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can validate books Mgs",
+    "steps": [
+      {
+        "name": "User can validate books Mgs",
+        "aggregatedDurations": {
+          "median": 0.4247556,
+          "average": 0.4247556
+        },
+        "durations": [
+          {
+            "duration": 0.4247556,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:26"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can click fashion Button",
+    "steps": [
+      {
+        "name": "User can click fashion Button",
+        "aggregatedDurations": {
+          "median": 6.1992463,
+          "average": 6.1992463
+        },
+        "durations": [
+          {
+            "duration": 6.1992463,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:29"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can validate fashion Mgs",
+    "steps": [
+      {
+        "name": "User can validate fashion Mgs",
+        "aggregatedDurations": {
+          "median": 0.1838944,
+          "average": 0.1838944
+        },
+        "durations": [
+          {
+            "duration": 0.1838944,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:30"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can click kindleBook Button",
+    "steps": [
+      {
+        "name": "User can click kindleBook Button",
+        "aggregatedDurations": {
+          "median": 6.5253297,
+          "average": 6.5253297
+        },
+        "durations": [
+          {
+            "duration": 6.5253297,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:33"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can click gift Button",
+    "steps": [
+      {
+        "name": "User can click gift Button",
+        "aggregatedDurations": {
+          "median": 3.4380298,
+          "average": 3.4380298
+        },
+        "durations": [
+          {
+            "duration": 3.4380298,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:36"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can validate gift Mgs",
+    "steps": [
+      {
+        "name": "User can validate gift Mgs",
+        "aggregatedDurations": {
+          "median": 0.4340225,
+          "average": 0.4340225
+        },
+        "durations": [
+          {
+            "duration": 0.4340225,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:37"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can click toys Button",
+    "steps": [
+      {
+        "name": "User can click toys Button",
+        "aggregatedDurations": {
+          "median": 3.8957668,
+          "average": 3.8957668
+        },
+        "durations": [
+          {
+            "duration": 3.8957668,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:40"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "User can validate toys Mgs",
+    "steps": [
+      {
+        "name": "User can validate toys Mgs",
+        "aggregatedDurations": {
+          "median": 0.2539887,
+          "average": 0.2539887
+        },
+        "durations": [
+          {
+            "duration": 0.2539887,
+            "location": "file:///C:/Users/mukul/eclipse-framework/BDD_Cucumber/Amazon/src/test/java/features/HomePageButton.feature:41"
           }
         ]
       }
